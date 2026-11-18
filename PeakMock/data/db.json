@@ -1,0 +1,1892 @@
+{
+  "users": [
+    {
+      "id": "usr_1794934437099",
+      "name": "Doniyorbek Ro‘zimatov",
+      "email": "rozimatovdoniyor4@gmail.com",
+      "provider": "google",
+      "targetIelts": "8.0",
+      "targetSat": "1520",
+      "createdAt": "2026-11-17T16:53:57.099Z"
+    },
+    {
+      "id": "usr_1794936218957",
+      "name": "Doniyorbek Ro‘zimatov",
+      "email": "rozimatovdoni20@gmail.com",
+      "provider": "google",
+      "targetIelts": "8.0",
+      "targetSat": "1520",
+      "createdAt": "2026-11-17T17:23:38.957Z"
+    }
+  ],
+  "tests": [
+    {
+      "id": "ielts-1795006783017",
+      "exam": "IELTS",
+      "section": "Writing",
+      "part": "Task 2",
+      "title": "Military",
+      "durationMinutes": 45,
+      "passage": "",
+      "transcript": "",
+      "prompt": "Some people believe that women should play an equal role alongside men in a country’s police force and military, while others argue that women are not suited to this kind of work. Discuss both these views and give your own opinion.",
+      "minWords": 250,
+      "audioUrl": "",
+      "imageUrl": "",
+      "questions": [],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-18T12:59:43.017Z"
+    },
+    {
+      "id": "ielts-1795006681526",
+      "exam": "IELTS",
+      "section": "Writing",
+      "part": "Task 1",
+      "title": "IELTS Writing — Task 1",
+      "durationMinutes": 25,
+      "passage": "",
+      "transcript": "",
+      "prompt": "The table below gives information about students studying in six departments in an Australian university in 2011.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+      "minWords": 150,
+      "audioUrl": "",
+      "imageUrl": "/uploads/images/1795006668765_photo_2026-11-18_17-57-21.jpg",
+      "questions": [
+        {
+          "id": 1,
+          "type": "gap_fill",
+          "prompt": "Which department has the lowest percentage of female students?",
+          "options": [],
+          "answer": "Engineering",
+          "explanation": "According to the table, the Engineering department has only 15% female students, which is the lowest among all listed departments."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "prompt": "According to the table, which statement is TRUE regarding the Physics and Information Technology departments?",
+          "options": [
+            "A. They have the same percentage of female students.",
+            "B. They have the same percentage of students born outside Australia.",
+            "C. Information Technology has fewer students whose first language is not English.",
+            "D. Physics has a higher percentage of students born outside Australia."
+          ],
+          "answer": "B",
+          "explanation": "Both the Physics and Information Technology departments have 56% of their students born outside Australia."
+        },
+        {
+          "id": 3,
+          "type": "mcq",
+          "prompt": "In which department is the percentage of students whose first language is not English the lowest?",
+          "options": [
+            "A. Humanities",
+            "B. Education",
+            "C. Science",
+            "D. Engineering"
+          ],
+          "answer": "A",
+          "explanation": "The Humanities department has the lowest percentage of students whose first language is not English at 12%."
+        }
+      ],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-18T12:58:01.526Z"
+    },
+    {
+      "id": "ielts-1795006615081",
+      "exam": "IELTS",
+      "section": "Writing",
+      "part": "Task 2",
+      "title": "IELTS Writing — Task 2",
+      "durationMinutes": 45,
+      "passage": "",
+      "transcript": "",
+      "prompt": "Some people think that it is better to teach language students in small classes, whereas others believe that class size does not matter.\n\nDiscuss both views and give your own opinion.",
+      "minWords": 250,
+      "audioUrl": "",
+      "imageUrl": "",
+      "questions": [],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-18T12:56:55.081Z"
+    },
+    {
+      "id": "ielts-1795006476677",
+      "exam": "IELTS",
+      "section": "Writing",
+      "part": "Task 1",
+      "title": "Purpose of trips",
+      "durationMinutes": 25,
+      "passage": "",
+      "transcript": "",
+      "prompt": "The bar chart shows the number and the purpose of trips made by men and women in a certain European country in 2007.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "minWords": 150,
+      "audioUrl": "",
+      "imageUrl": "/uploads/images/1795006461604_photo_2026-11-18_17-53-16.jpg",
+      "questions": [
+        {
+          "id": 1,
+          "type": "mcq",
+          "prompt": "Based on the chart (where light gray represents women and dark gray represents men), which activity was the most common reason for trips among women?",
+          "options": [
+            "A. Travelling to work",
+            "B. Visiting Friends",
+            "C. Shopping",
+            "D. Sports/entertainment"
+          ],
+          "answer": "C",
+          "explanation": "Women made approximately 280 trips for shopping, which is their highest category."
+        },
+        {
+          "id": 2,
+          "type": "mcq",
+          "prompt": "For which purpose did men make the highest number of trips?",
+          "options": [
+            "A. Day trip",
+            "B. Shopping",
+            "C. Travelling to work",
+            "D. Visiting Friends"
+          ],
+          "answer": "C",
+          "explanation": "Men made roughly 330 trips for the purpose of travelling to work, the highest bar for their group."
+        },
+        {
+          "id": 3,
+          "type": "gap_fill",
+          "prompt": "Approximately how many trips were made by men for the purpose of sports or entertainment?",
+          "options": [],
+          "answer": "140",
+          "explanation": "The dark gray bar for Sports/entertainment aligns with the 140 mark on the horizontal axis."
+        },
+        {
+          "id": 4,
+          "type": "mcq",
+          "prompt": "In which of the following categories did women make more trips than men?",
+          "options": [
+            "A. Travelling to work",
+            "B. Visiting Friends",
+            "C. Sports/entertainment",
+            "D. Day trip"
+          ],
+          "answer": "B",
+          "explanation": "Women (light gray) made more trips than men (dark gray) in only two categories: Visiting Friends and Shopping."
+        }
+      ],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-18T12:54:36.677Z"
+    },
+    {
+      "id": "ielts-1795005747966",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 2",
+      "title": "P2 - Playing Soccer",
+      "durationMinutes": 23,
+      "passage": "READING PASSAGE 2\n\nPlaying soccer\n\nThere are many differences between playing soccer in the street and joining a youth team in an organized league in the USA\n\nA. Street soccer, as its name implies, is an informal variation of the sport, often played on the street, particularly in urban areas. There are many reasons for the widespread popularity of street soccer. Unlike youth soccer, its more formally organized counterpart, no large space is needed, and goal posts, corner markers, and marked lines, associated with the formal game, are typically absent, as are game officials or referees. Another attraction of street soccer is that it is played frequently and competitively, but does not necessarily require standard 11-a-side teams or fixed playing positions. Unlike in youth soccer, inexperienced street soccer players rarely learn from repetitive technical and tactical drills. Instead, they learn from their poor performance in competition, unconscious of the skills they are nonetheless developing, and without older adults or coaches present. Players learn without effort through playing the game, and soon attain an almost natural feeling for the sport.\n\nB. However, there are lots of cities in the world today where conditions are such that street soccer is no longer possible. Congested traffic now dominates where games were once played. Parks and open fields are used as hangouts for older teenagers with other interests. Add to this the requirement in many localities for official permits to use public spaces and the managed schedules that many young people have today, and spontaneous play of any kind is hard to imagine.\n\nC. In spite of all these obstacles, which are probably solvable in most instances, there is another sociological explanation of why in many places street soccer doesn't enjoy the same popularity it once did. In his book How Soccer Explains the World, US writer Franklin Foer observes: But for all the talk of freedom, the 1960s parenting style had a far less relaxed side too. Like the 1960s consumer movement which brought seat belts and airbags to cars, the (youth) soccer movement felt like it could create a set of ... regulations that would protect both the child's body and mind from damage. Soccer leagues like the one I played in as a child handed out 'participation' prizes to every player, no matter how few games his (or her) team won.... Where most of the world accepts the practice of using your head to hit the ball as an essential element of the game, some (youth) soccer parents have worried over the potential for injury to the brain. An entire industry grew up to manufacture protective headgear.... Even though very little medical evidence supports this fear, some youth leagues prohibited heading the ball altogether.\n\nD. A growing body of people don't believe street soccer involves a legitimate educational method. They argue that children need to be taught by experts. Youth soccer instruction now begins with four-year-olds, so that they will have an advantage as six-year-olds. This need to get ahead brings with it a fear of falling behind that only expert instruction can prevent. This type of instruction leaves no room for the trial and error approach of street soccer.\n\nE. One of the basic ideas of street soccer is that young players are assigned a particular role by a better player and are expected to play for the good of the team. Such an assignment runs counter to the idea of youth soccer that every child needs to learn every position and will benefit from doing so. In street soccer, you fill the role that you are best suited to at a particular time. While this role assignment can change from game to game, the purpose is always the same: to get the best out of each individual at any given moment.\n\nF. In youth soccer, children have to learn patience, to wait their turn, to realize that they are not entitled to make decisions, or even be listened to simply because they show up. Positions of responsibility are earned through competition within the team. Younger players in street soccer must wait to attain those positions. In youth soccer, however, with its overly democratic values, youngsters are guaranteed their time in the spotlight. Whether it's their turn to be captain, to play a central position or to take a crucial shot, youth soccer players come to believe that hard work and patience aren't really necessary.\n\nG. Not only does every youth soccer player get a chance, it is assumed that each individual has played well. 'Everyone's a winner; no one's a loser' is a guiding principle of youth soccer. This ensures each individual goes away positive about themselves. No one can leave a game or a practice feeling bad. But, if there really are no losers, then why try at all? Since giving less than your best receives the same reward as giving your best why go to any extra effort? In street soccer, every game results in a winner and a loser and everyone knows who is who. Losing a game is a common experience and players learn early on how to handle this. As a result, unlike most youth soccer players, they acquire resilience.\n\nA further difference between these two strands of soccer is that in street soccer a formal record is not kept. You can lose one day and win the next. The results are only temporary and are forgotten within minutes of the end of the match. But in organized youth soccer, the position each person plays and the results are formally noted and maintained throughout a season.",
+      "transcript": "",
+      "prompt": "",
+      "minWords": 150,
+      "audioUrl": "",
+      "imageUrl": "",
+      "questions": [
+        {
+          "id": 14,
+          "type": "mcq",
+          "question": "Which section contains a contrast between the ways young players gain experience of playing different positions?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "E",
+          "explanation": "Section E contrasts youth soccer's 'every child learns every position' with street soccer's assignment of specific roles based on ability."
+        },
+        {
+          "id": 15,
+          "type": "mcq",
+          "question": "Which section contains examples outside sport of greater emphasis on individual safety?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "C",
+          "explanation": "Section C mentions the 1960s consumer movement and safety features like seat belts and airbags in cars."
+        },
+        {
+          "id": 16,
+          "type": "mcq",
+          "question": "Which section contains a description of methods of selection for leadership on soccer teams?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "F",
+          "explanation": "Section F discusses how positions like captaincy are earned or assigned differently in youth vs. street soccer."
+        },
+        {
+          "id": 17,
+          "type": "mcq",
+          "question": "Which section contains details of urban changes that discourage street soccer?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "B",
+          "explanation": "Section B details changes like congested traffic and the use of parks by older teenagers as reasons street soccer is disappearing."
+        },
+        {
+          "id": 18,
+          "type": "mcq",
+          "question": "Which section contains a mention of the lesson that failure teaches street soccer players?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "G",
+          "explanation": "Section G states that in street soccer, players learn early on how to handle losing, which builds resilience."
+        },
+        {
+          "id": 19,
+          "type": "mcq",
+          "question": "Which section contains an explanation of why youth soccer emphasises the need for coaches?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "D",
+          "explanation": "Section D explains that youth soccer relies on expert instruction (coaches) due to parents' fear of their children falling behind."
+        },
+        {
+          "id": 20,
+          "type": "mcq",
+          "question": "The list below gives some possible reasons for the popularity of street soccer. Which TWO of these reasons are mentioned by the writer of the text? (First choice)",
+          "options": [
+            "A Many famous soccer players got their start in street soccer.",
+            "B Young people can begin playing street soccer at a very early age.",
+            "C You do not need elaborate facilities to play street soccer.",
+            "D Inexperienced street soccer players are not criticised for mistakes.",
+            "E Street soccer teams can have varying numbers of players."
+          ],
+          "answer": "C You do not need elaborate facilities to play street soccer.",
+          "explanation": "Section A mentions 'no large space is needed, and goal posts, corner markers, and marked lines... are typically absent'."
+        },
+        {
+          "id": 21,
+          "type": "mcq",
+          "question": "The list below gives some possible reasons for the popularity of street soccer. Which TWO of these reasons are mentioned by the writer of the text? (Second choice)",
+          "options": [
+            "A Many famous soccer players got their start in street soccer.",
+            "B Young people can begin playing street soccer at a very early age.",
+            "C You do not need elaborate facilities to play street soccer.",
+            "D Inexperienced street soccer players are not criticised for mistakes.",
+            "E Street soccer teams can have varying numbers of players."
+          ],
+          "answer": "E Street soccer teams can have varying numbers of players.",
+          "explanation": "Section A notes that street soccer 'does not necessarily require standard 11-a-side teams'."
+        },
+        {
+          "id": 22,
+          "type": "mcq",
+          "question": "The list below goes some possible results of the 1960s parenting style. Which TWO of these results are mentioned by Franklin Foer in the excerpt from How Soccer Explains the World? (First choice)",
+          "options": [
+            "A Participation in youth soccer became much more expensive.",
+            "B Some youth soccer leagues adopted more restrictive rules of play.",
+            "C Fewer young people joined youth soccer teams.",
+            "D Youth soccer players were sometimes rewarded for simply playing in games.",
+            "E Soccer equipment manufacturers directed advertising towards parents."
+          ],
+          "answer": "B Some youth soccer leagues adopted more restrictive rules of play.",
+          "explanation": "Section C mentions that some leagues 'prohibited heading the ball altogether' as a form of regulation."
+        },
+        {
+          "id": 23,
+          "type": "mcq",
+          "question": "The list below goes some possible results of the 1960s parenting style. Which TWO of these results are mentioned by Franklin Foer in the excerpt from How Soccer Explains the World? (Second choice)",
+          "options": [
+            "A Participation in youth soccer became much more expensive.",
+            "B Some youth soccer leagues adopted more restrictive rules of play.",
+            "C Fewer young people joined youth soccer teams.",
+            "D Youth soccer players were sometimes rewarded for simply playing in games.",
+            "E Soccer equipment manufacturers directed advertising towards parents."
+          ],
+          "answer": "D Youth soccer players were sometimes rewarded for simply playing in games.",
+          "explanation": "Section C notes leagues 'handed out 'participation' prizes to every player, no matter how few games his (or her) team won'."
+        },
+        {
+          "id": 24,
+          "type": "fill-in-the-blanks",
+          "question": "For youth soccer players, a key 24…………..……….is that they should always come away from the game with a positive attitude.",
+          "answer": "principle",
+          "explanation": "Section G states: ''Everyone's a winner; no one's a loser' is a guiding principle of youth soccer. This ensures each individual goes away positive about themselves.'"
+        },
+        {
+          "id": 25,
+          "type": "fill-in-the-blanks",
+          "question": "In this respect, regardless of the effort the players make, they get some kind of 25…………..……….at the end of a game.",
+          "answer": "reward",
+          "explanation": "Section G mentions that 'giving less than your best receives the same reward as giving your best'."
+        },
+        {
+          "id": 26,
+          "type": "fill-in-the-blanks",
+          "question": "In street soccer, however, players gain resilience because they have to learn to cope with failure. But the outcome of a match isn't remembered for long. In fact, no-one ever keeps a 26.................. of the results of games.",
+          "answer": "record",
+          "explanation": "The final paragraph states: 'in street soccer a formal record is not kept.'"
+        }
+      ],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-18T12:42:27.966Z"
+    },
+    {
+      "id": "ielts-1795005164602",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 2",
+      "title": "IELTS Reading — Passage 2",
+      "durationMinutes": 23,
+      "passage": "READING PASSAGE 2\n\nYou should spend about 20 minutes on Questions 14-26, which are based on Reading Passage 2.\n\nPlaying soccer\n\nThere are many differences between playing soccer in the street and joining a youth team in an organized league in the USA\n\nA. Street soccer, as its name implies, is an informal variation of the sport, often played on the street, particularly in urban areas. There are many reasons for the widespread popularity of street soccer. Unlike youth soccer, its more formally organized counterpart, no large space is needed, and goal posts, corner markers, and marked lines, associated with the formal game, are typically absent, as are game officials or referees. Another attraction of street soccer is that it is played frequently and competitively, but does not necessarily require standard 11-a-side teams or fixed playing positions. Unlike in youth soccer, inexperienced street soccer players rarely learn from repetitive technical and tactical drills. Instead, they learn from their poor performance in competition, unconscious of the skills they are nonetheless developing, and without older adults or coaches present. Players learn without effort through playing the game, and soon attain an almost natural feeling for the sport.\n\nB. However, there are lots of cities in the world today where conditions are such that street soccer is no longer possible. Congested traffic now dominates where games were once played. Parks and open fields are used as hangouts for older teenagers with other interests. Add to this the requirement in many localities for official permits to use public spaces and the managed schedules that many young people have today, and spontaneous play of any kind is hard to imagine.\n\nC. In spite of all these obstacles, which are probably solvable in most instances, there is another sociological explanation of why in many places street soccer doesn't enjoy the same popularity it once did. In his book How Soccer Explains the World, US writer Franklin Foer observes: But for all the talk of freedom, the 1960s parenting style had a far less relaxed side too. Like the 1960s consumer movement which brought seat belts and airbags to cars, the (youth) soccer movement felt like it could create a set of ... regulations that would protect both the child's body and mind from damage. Soccer leagues like the one I played in as a child handed out 'participation' prizes to every player, no matter how few games his (or her) team won.... Where most of the world accepts the practice of using your head to hit the ball as an essential element of the game, some (youth) soccer parents have worried over the potential for injury to the brain. An entire industry grew up to manufacture protective headgear.... Even though very little medical evidence supports this fear, some youth leagues prohibited heading the ball altogether.\n\nD. A growing body of people don't believe street soccer involves a legitimate educational method. They argue that children need to be taught by experts. Youth soccer instruction now begins with four-year-olds, so that they will have an advantage as six-year-olds. This need to get ahead brings with it a fear of falling behind that only expert instruction can prevent. This type of instruction leaves no room for the trial and error approach of street soccer.\n\nE. One of the basic ideas of street soccer is that young players are assigned a particular role by a better player and are expected to play for the good of the team. Such an assignment runs counter to the idea of youth soccer that every child needs to learn every position and will benefit from doing so. In street soccer, you fill the role that you are best suited to at a particular time. While this role assignment can change from game to game, the purpose is always the same: to get the best out of each individual at any given moment.\n\nF. In youth soccer, children have to learn patience, to wait their turn, to realize that they are not entitled to make decisions, or even be listened to simply because they show up. Positions of responsibility are earned through competition within the team. Younger players in street soccer must wait to attain those positions. In youth soccer, however, with its overly democratic values, youngsters are guaranteed their time in the spotlight. Whether it's their turn to be captain, to play a central position or to take a crucial shot, youth soccer players come to believe that hard work and patience aren't really necessary.\n\nG. Not only does every youth soccer player get a chance, it is assumed that each individual has played well. 'Everyone's a winner; no one's a loser' is a guiding principle of youth soccer. This ensures each individual goes away positive about themselves. No one can leave a game or a practice feeling bad. But, if there really are no losers, then why try at all? Since giving less than your best receives the same reward as giving your best why go to any extra effort? In street soccer, every game results in a winner and a loser and everyone knows who is who. Losing a game is a common experience and players learn early on how to handle this. As a result, unlike most youth soccer players, they acquire resilience.\n\nA further difference between these two strands of soccer is that in street soccer a formal record is not kept. You can lose one day and win the next. The results are only temporary and are forgotten within minutes of the end of the match. But in organized youth soccer, the position each person plays and the results are formally noted and maintained throughout a season.",
+      "transcript": "",
+      "prompt": "",
+      "minWords": 150,
+      "audioUrl": "",
+      "imageUrl": "",
+      "questions": [
+        {
+          "id": 14,
+          "type": "matching",
+          "question": "Which section contains a contrast between the ways young players gain experience of playing different positions?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "E",
+          "explanation": "Section E compares the street soccer method of assigning specific roles for the good of the team vs the youth soccer goal for every child to learn every position."
+        },
+        {
+          "id": 15,
+          "type": "matching",
+          "question": "Which section contains examples outside sport of greater emphasis on individual safety?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "C",
+          "explanation": "Section C mentions the 1960s consumer movement which introduced seat belts and airbags to cars as a parallel to safety regulations in youth soccer."
+        },
+        {
+          "id": 16,
+          "type": "matching",
+          "question": "Which section contains a description of methods of selection for leadership on soccer teams?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "F",
+          "explanation": "Section F discusses how positions of responsibility are earned through competition in street soccer, while in youth soccer players are guaranteed turns as captain."
+        },
+        {
+          "id": 17,
+          "type": "matching",
+          "question": "Which section contains details of urban changes that discourage street soccer?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "B",
+          "explanation": "Section B details urban issues like congested traffic and the conversion of open spaces into hangouts for older teenagers."
+        },
+        {
+          "id": 18,
+          "type": "matching",
+          "question": "Which section contains a mention of the lesson that failure teaches street soccer players?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "G",
+          "explanation": "Section G explains that losing is common in street soccer and helps players learn resilience."
+        },
+        {
+          "id": 19,
+          "type": "matching",
+          "question": "Which section contains an explanation of why youth soccer emphasises the need for coaches?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answer": "D",
+          "explanation": "Section D discusses the belief that children need expert instruction starting at age four to gain an advantage and avoid falling behind."
+        },
+        {
+          "id": 20,
+          "type": "mcq",
+          "question": "Which of the following is ONE reason mentioned for the popularity of street soccer?",
+          "options": [
+            "A Many famous soccer players got their start in street soccer.",
+            "B Young people can begin playing street soccer at a very early age.",
+            "C You do not need elaborate facilities to play street soccer.",
+            "D Inexperienced street soccer players are not criticised for mistakes.",
+            "E Street soccer teams can have varying numbers of players."
+          ],
+          "answer": "C You do not need elaborate facilities to play street soccer.",
+          "explanation": "Section A states that unlike youth soccer, 'no large space is needed, and goal posts, corner markers, and marked lines... are typically absent'."
+        },
+        {
+          "id": 21,
+          "type": "mcq",
+          "question": "Which of the following is another reason mentioned for the popularity of street soccer?",
+          "options": [
+            "A Many famous soccer players got their start in street soccer.",
+            "B Young people can begin playing street soccer at a very early age.",
+            "C You do not need elaborate facilities to play street soccer.",
+            "D Inexperienced street soccer players are not criticised for mistakes.",
+            "E Street soccer teams can have varying numbers of players."
+          ],
+          "answer": "E Street soccer teams can have varying numbers of players.",
+          "explanation": "Section A notes that street soccer 'does not necessarily require standard 11-a-side teams'."
+        },
+        {
+          "id": 22,
+          "type": "mcq",
+          "question": "Which of the following is ONE possible result of the 1960s parenting style mentioned by Franklin Foer?",
+          "options": [
+            "A Participation in youth soccer became much more expensive.",
+            "B Some youth soccer leagues adopted more restrictive rules of play.",
+            "C Fewer young people joined youth soccer teams.",
+            "D Youth soccer players were sometimes rewarded for simply playing in games.",
+            "E Soccer equipment manufacturers directed advertising towards parents."
+          ],
+          "answer": "B Some youth soccer leagues adopted more restrictive rules of play.",
+          "explanation": "Section C mentions that the movement created regulations to protect children, including some leagues prohibiting 'heading the ball altogether'."
+        },
+        {
+          "id": 23,
+          "type": "mcq",
+          "question": "Which of the following is another possible result of the 1960s parenting style mentioned by Franklin Foer?",
+          "options": [
+            "A Participation in youth soccer became much more expensive.",
+            "B Some youth soccer leagues adopted more restrictive rules of play.",
+            "C Fewer young people joined youth soccer teams.",
+            "D Youth soccer players were sometimes rewarded for simply playing in games.",
+            "E Soccer equipment manufacturers directed advertising towards parents."
+          ],
+          "answer": "D Youth soccer players were sometimes rewarded for simply playing in games.",
+          "explanation": "Section C states that leagues 'handed out 'participation' prizes to every player, no matter how few games his (or her) team won'."
+        },
+        {
+          "id": 24,
+          "type": "gap-fill",
+          "question": "For youth soccer players, a key [blank] is that they should always come away from the game with a positive attitude.",
+          "options": [],
+          "answer": "principle",
+          "explanation": "Section G states: ''Everyone's a winner; no one's a loser' is a guiding principle of youth soccer. This ensures each individual goes away positive...'"
+        },
+        {
+          "id": 25,
+          "type": "gap-fill",
+          "question": "In this respect, regardless of the effort the players make, they get some kind of [blank] at the end of a game.",
+          "options": [],
+          "answer": "reward",
+          "explanation": "Section G says: 'giving less than your best receives the same reward as giving your best'. (Note: 'prizes' from Section C is also a possible contextual fit, but 'reward' matches the logic of Section G's summary context)."
+        },
+        {
+          "id": 26,
+          "type": "gap-fill",
+          "question": "In fact, no-one ever keeps a [blank] of the results of games.",
+          "options": [],
+          "answer": "record",
+          "explanation": "The final paragraph states: 'in street soccer a formal record is not kept.'"
+        }
+      ],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-18T12:32:44.602Z"
+    },
+    {
+      "id": "ielts-1795001942805",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 2",
+      "title": "practise 3",
+      "durationMinutes": 23,
+      "passage": "Skyscraper Farming\n\nWith a global food crisis predicted, a group of scientists is advocating an innovative alternative to conventional farming that could radically transform the way that food is produced.\n\nA. Today’s environmental scientists are in no doubt that the world’s resources of fertile soil are rapidly deteriorating, and new land for agriculture is becoming ever more sparse. Intensive farming, urbanization, desertification and sea-level rises are all putting growing pressure on the planet's agricultural land and therefore on food supplies. Currently 24 per cent of the world’s 11.5 million hectares of cultivated land has already undergone human-induced soil degradation particularly through erosion, according to a recent study by the UK Government Office for Science.\n\nB. The global population is expected to exceed nine billion by 2050 – up a third from today’s level and studies suggest that food production will have to go up by 70 per cent if we are to feed all of those new mouths. This means that scientists will have to develop new ways of growing crops if we are to avoid a humanitarian crisis. Indeed, UK food and Agriculture Organization figures suggest that the number of undernourished people is already growing. And with escalating climate change, crop yields in many areas have been protected.\n\nC. With this in mind, some scientists and agricultural experts are advocating an innovative alternative to traditional farming whereby skyscrapers packed with shelf-based systems for growing vegetables on each story – known as ‘vertical farms’ – could hold the key to revolutionizing agriculture. Columbia University professor Dickson Despommier claims that vertical farming could boost crop yields many times over. A single 20-storey vertical farm could theoretically feed 50,000 people, according to Despommier. And if the theory translates into reality as proposed, 160 skyscraper-sized vertical farms could feed the entire population of New York City, while 180 would be needed to feed London, 289 to feed Cairo and 302 to feed Kolkata.\n\nD. It’s a compelling vision, and one that has already been put into practice in Asia, albeit on a smaller scale. ‘But there are problems such as initial investment and operating costs are too great,’ says a spokesman for Japan’s Ministry of Agriculture, Forestry and Fisheries. Nevertheless, Tokyo-based mushroom producer Hokuto Corporation is a model example of how a vertical farm can be profitable. With 28 vertical mushroom farms operating across the country, it produces some 68,000 tons of mushrooms annually. Vertical mushroom farms have more advantages than ground-level farms, says Hokuto’s Ted Yamanoko. Yamanoko goes on to highlight the relative cost-effectiveness of his organization’s farming practices together with reduced emissions of greenhouse gases.\n\nE. And the impact vertical farms could extend beyond feeding established urban populations. Despommier sees them as being capable of helping centers of displaced persons – such as refugee camps – in much the same way that Mobile Army Surgical Hospital (MASH) units are deployed in emergency situations. “Developing an emergency-response system for crop production inside specially constructed modular and highly transportable greenhouses would allow for humanitarian interventions, at least for refugees that are forced out of their countries by political turmoil’, he says. ‘If you have three or four storeys of food already growing some place, they could become mobile units that could be picked up by helicopters and dropped into the middle of a crisis zone. The food would be ready to pick and eat. It could be designed to supply people with all the nutrition they need to make it through the crisis.’\n\nF. But it isn’t only about increasing food production, Despommier is concerned about the harm which farming has done to the world’s landscape over a relatively short time span, particularly the elimination of hardwood forests. ‘Farming is only 12,000 years old.’ He points out ‘We have been a species for over 200,000 years. Producing food in tall buildings will allow us for the first time to feed everyone on earth and still return land to its original ecological function.’ Natalie Jeremijenko, associate professor at New York University, agrees. ‘The challenge that we have now is how we can design urban agriculture systems that not only reduce food miles, but also improve the world’s ecosystems.’ she says. By significantly reducing the amount of land required for food production, vertical farms could help to enrich biodiversity. And according to Jeremijenko, this can, in turn, help to improve the productivity of conventional farms, as the health of agricultural land is often tied to the health of the surrounding ecosystems. Furthermore, vertical farming could dramatically cut the utilization of fossil fuels. And also reduce geopolitical tensions in countries where poor farming conditions cause conflict and malnutrition.",
+      "transcript": "",
+      "prompt": "",
+      "minWords": 150,
+      "audioUrl": "",
+      "imageUrl": "",
+      "questions": [
+        {
+          "id": 14,
+          "type": "mcq",
+          "question": "Paragraph A (Choose the correct heading)",
+          "options": [
+            "i Potential production capacities of vertical farms",
+            "ii Opposition to new ideas about food production",
+            "iii A successful application of vertical farming technology",
+            "iv The potential to provide urgent relief",
+            "v The original inspiration for vertical farming",
+            "vi Various environmental benefits of vertical farming",
+            "vii An increasing problem for farmers worldwide",
+            "viii A return to traditional farming methods",
+            "ix A rising demand of food"
+          ],
+          "answer": "vii An increasing problem for farmers worldwide",
+          "explanation": "Paragraph A discusses deteriorating soil resources and the 24% of land suffering from soil degradation, which is a growing problem globally."
+        },
+        {
+          "id": 15,
+          "type": "mcq",
+          "question": "Paragraph B (Choose the correct heading)",
+          "options": [
+            "i Potential production capacities of vertical farms",
+            "ii Opposition to new ideas about food production",
+            "iii A successful application of vertical farming technology",
+            "iv The potential to provide urgent relief",
+            "v The original inspiration for vertical farming",
+            "vi Various environmental benefits of vertical farming",
+            "vii An increasing problem for farmers worldwide",
+            "viii A return to traditional farming methods",
+            "ix A rising demand of food"
+          ],
+          "answer": "ix A rising demand of food",
+          "explanation": "Paragraph B explains that the global population is expected to reach 9 billion and food production must increase by 70%."
+        },
+        {
+          "id": 16,
+          "type": "mcq",
+          "question": "Paragraph C (Choose the correct heading)",
+          "options": [
+            "i Potential production capacities of vertical farms",
+            "ii Opposition to new ideas about food production",
+            "iii A successful application of vertical farming technology",
+            "iv The potential to provide urgent relief",
+            "v The original inspiration for vertical farming",
+            "vi Various environmental benefits of vertical farming",
+            "vii An increasing problem for farmers worldwide",
+            "viii A return to traditional farming methods",
+            "ix A rising demand of food"
+          ],
+          "answer": "i Potential production capacities of vertical farms",
+          "explanation": "Paragraph C outlines how many people vertical farms could theoretically feed in cities like New York, London, and Cairo."
+        },
+        {
+          "id": 17,
+          "type": "mcq",
+          "question": "Paragraph D (Choose the correct heading)",
+          "options": [
+            "i Potential production capacities of vertical farms",
+            "ii Opposition to new ideas about food production",
+            "iii A successful application of vertical farming technology",
+            "iv The potential to provide urgent relief",
+            "v The original inspiration for vertical farming",
+            "vi Various environmental benefits of vertical farming",
+            "vii An increasing problem for farmers worldwide",
+            "viii A return to traditional farming methods",
+            "ix A rising demand of food"
+          ],
+          "answer": "iii A successful application of vertical farming technology",
+          "explanation": "Paragraph D highlights the Hokuto Corporation in Japan as a model of a profitable and successful vertical farming operation."
+        },
+        {
+          "id": 18,
+          "type": "mcq",
+          "question": "Paragraph E (Choose the correct heading)",
+          "options": [
+            "i Potential production capacities of vertical farms",
+            "ii Opposition to new ideas about food production",
+            "iii A successful application of vertical farming technology",
+            "iv The potential to provide urgent relief",
+            "v The original inspiration for vertical farming",
+            "vi Various environmental benefits of vertical farming",
+            "vii An increasing problem for farmers worldwide",
+            "viii A return to traditional farming methods",
+            "ix A rising demand of food"
+          ],
+          "answer": "iv The potential to provide urgent relief",
+          "explanation": "Paragraph E discusses mobile modular greenhouses for humanitarian interventions in refugee camps and crisis zones."
+        },
+        {
+          "id": 19,
+          "type": "mcq",
+          "question": "Paragraph F (Choose the correct heading)",
+          "options": [
+            "i Potential production capacities of vertical farms",
+            "ii Opposition to new ideas about food production",
+            "iii A successful application of vertical farming technology",
+            "iv The potential to provide urgent relief",
+            "v The original inspiration for vertical farming",
+            "vi Various environmental benefits of vertical farming",
+            "vii An increasing problem for farmers worldwide",
+            "viii A return to traditional farming methods",
+            "ix A rising demand of food"
+          ],
+          "answer": "vi Various environmental benefits of vertical farming",
+          "explanation": "Paragraph F mentions benefits such as enriching biodiversity, reducing food miles, and cutting fossil fuel use."
+        },
+        {
+          "id": 20,
+          "type": "gap-fill",
+          "question": "A UK government study found that [gap] is a significant factor contributing to worldwide levels of soil degradation.",
+          "options": [],
+          "answer": "erosion",
+          "explanation": "Paragraph A states that soil degradation is occurring 'particularly through erosion, according to a recent study by the UK Government Office for Science.'"
+        },
+        {
+          "id": 21,
+          "type": "gap-fill",
+          "question": "Disadvantages of vertical farming projects include the expense of setting them up, as well as their high [gap].",
+          "options": [],
+          "answer": "operating costs",
+          "explanation": "Paragraph D mentions that problems include 'initial investment and operating costs are too great.'"
+        },
+        {
+          "id": 22,
+          "type": "gap-fill",
+          "question": "[gap] could potentially be used to take vertical farming facilities to areas where there is a critical food shortage.",
+          "options": [],
+          "answer": "helicopters",
+          "explanation": "Paragraph E suggests that mobile units 'could be picked up by helicopters and dropped into the middle of a crisis zone.'"
+        },
+        {
+          "id": 23,
+          "type": "mcq",
+          "question": "Vertical farming can have financial benefits.",
+          "options": [
+            "A Dickson Despommier",
+            "B Ted Yamanoko",
+            "C Natalie Jeremijenko"
+          ],
+          "answer": "B Ted Yamanoko",
+          "explanation": "Paragraph D mentions Ted Yamanoko of Hokuto Corporation highlighting profitability and cost-effectiveness."
+        },
+        {
+          "id": 24,
+          "type": "mcq",
+          "question": "Traditional farming has had a negative effect on the natural world.",
+          "options": [
+            "A Dickson Despommier",
+            "B Ted Yamanoko",
+            "C Natalie Jeremijenko"
+          ],
+          "answer": "A Dickson Despommier",
+          "explanation": "Paragraph F states that Despommier is concerned about the 'harm which farming has done to the world’s landscape'."
+        },
+        {
+          "id": 25,
+          "type": "mcq",
+          "question": "Vertical farming could dramatically increase world food production.",
+          "options": [
+            "A Dickson Despommier",
+            "B Ted Yamanoko",
+            "C Natalie Jeremijenko"
+          ],
+          "answer": "A Dickson Despommier",
+          "explanation": "Paragraph C states that Despommier claims vertical farming 'could boost crop yields many times over'."
+        },
+        {
+          "id": 26,
+          "type": "mcq",
+          "question": "Traditional farms may benefit from wider use of vertical farming.",
+          "options": [
+            "A Dickson Despommier",
+            "B Ted Yamanoko",
+            "C Natalie Jeremijenko"
+          ],
+          "answer": "C Natalie Jeremijenko",
+          "explanation": "Paragraph F quotes Jeremijenko saying vertical farming 'can, in turn, help to improve the productivity of conventional farms'."
+        }
+      ],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-18T11:39:02.805Z"
+    },
+    {
+      "id": "ielts-1794937635867",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 1",
+      "title": "Practise 2: Last Man",
+      "durationMinutes": 23,
+      "passage": "The last man who knew everything\n\nIn the 21st century, it would be quite impossible for even the most learned man to know everything. However, as recently as the 18th century, there were those whose knowledge encompassed most of the information available at that time. This is a review of a biography of one such man.\n\nThomas Young (1773–1829) contributed 63 articles to the great British encyclopaedia, Encyclopaedia Britannica, including 46 biographical entries (mostly on scientists and classical scholars), and substantial essays on 'Bridge' (a card game), 'Egypt', 'Languages' and 'Tides'. Was someone who could write authoritatively about so many subjects a genius, or a dilettante? In an ambitious biography, Andrew Robinson argues that Young is a good contender to be described as 'the last man who knew everything'. Young has competition, however: the phrase which Robinson uses as the title of his biography of Young also serves as the subtitle of two other recent biographies: Leonard Warren's 1998 life of palaeontologist Joseph Leidy (1823–1891) and Paula Findlen's 2004 book on Athanasius Kircher (1602–1680).\n\nYoung, of course, did more than write encyclopaedia entries. He presented his first paper, on the human eye, to the prestigious academic institution, the Royal Society of London at the age of 20 and was elected a Fellow of the Society shortly afterwards. In the paper, which seeks to explain how the eye focuses on objects at varying distances, Young hypothesised that this was achieved by changes in the shape of the lens. He also theorised that light travels in waves, and believed that, to be able to see in colour, there must be three receptors in the eye corresponding to the three 'principal colours' (red, green and violet) to which the retina could respond. All these hypotheses were subsequently proved to be correct. Later in his life, when he was in his forties, Young was instrumental in cracking the code that unlocked the unknown script on the Rosetta Stone, a tablet found in Egypt by the Napoleonic army in 1799. The stone has text in three alphabets: Greek, Egyptian hieroglyphs, and something originally unrecognisable. The unrecognisable script is now known as 'demotic' and, as Young deduced, is related directly to Egyptian hieroglyphs. His initial work on this appeared in the Britannica entry 'Egypt'. In another entry, Young coined the term 'Indo-European' to describe the family of languages spoken throughout most of Europe and northern India. These works are the landmark achievements of a man who was a child prodigy but who, unlike many remarkable children, did not fade into obscurity as an adult.\n\nBorn in 1773 in Somerset in England, Young lived with his maternal grandfather from an early age. He devoured books from the age of two and excelled at Latin, Greek, mathematics and natural philosophy (the 18th-century term for science). After leaving school, he was greatly encouraged by Richard Brocklesby, a physician and Fellow of the Royal Society. Following Brocklesby's lead, Young decided to pursue a career in medicine. He studied in London and then moved on to more formal education in Edinburgh, Göttingen and Cambridge. After completing his medical training at the University of Cambridge in 1808, Young set up practice as a physician in London and a few years later was appointed physician at St. George's Hospital.\n\nYoung's skill as a physician, however, did not equal his talent as a scholar of natural philosophy or linguistics. In 1801, he had been appointed to a professorship of natural philosophy at the Royal Institution, where he delivered as many as 60 lectures a year. His opinions were requested by civic and national authorities on matters such as the introduction of gas lighting to London streets and methods of ship construction. From 1819, he was superintendent of the Nautical Almanac and secretary to the Board of Longitude. Between 1816 and 1825, he contributed many entries to the Encyclopaedia Britannica, and throughout his career he authored numerous other essays, papers and books.\n\nYoung is a perfect subject for a biography — perfect, but daunting. Few men contributed so much to so many technical fields. Robinson's aim is to introduce non-scientists to Young's work and life. He succeeds, providing clear expositions of the technical material (especially that on optics and Egyptian hieroglyphs). Some readers of this book will, like Robinson, find Young's accomplishments impressive; others will see him as some historians have — as a dilettante. Yet despite the rich material presented in this book, readers will not end up knowing Young personally. We catch glimpses of a playful Young, doodling Greek and Latin phrases in his notes on medical lectures and translating the verses that a young lady had written on the walls of a summerhouse into Greek elegiacs. Young was introduced into elite society, attended the theatre and learned to dance and play the flute. In addition, he was an accomplished horseman. However, his personal life looks pale next to his vibrant career and studies.\n\nYoung married Eliza Maxwell in 1804, and according to Robinson, 'their marriage was happy and she appreciated his work'. Almost all we know about her is that she sustained her husband through some rancorous disputes about optics and that she worried about money when his medical career was slow to take off. Little evidence survives concerning the complexities of Young's relationships with his mother and father. Robinson does not credit them with shaping Young's extraordinary mind. Despite the lack of details concerning Young's relationships, however, anyone interested in what it means to be a genius should read this book.",
+      "transcript": "",
+      "prompt": "",
+      "minWords": 250,
+      "audioUrl": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "True/False/Not Given",
+          "prompt": "Other people have been referred to as 'the last man who knew everything'.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "The text states that the phrase 'the last man who knew everything' serves as the subtitle of two other recent biographies for Joseph Leidy and Athanasius Kircher."
+        },
+        {
+          "id": "2",
+          "type": "True/False/Not Given",
+          "prompt": "The fact that Young's childhood brilliance continued into adulthood was normal.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "explanation": "The passage says Young was a child prodigy who, 'unlike many remarkable children, did not fade into obscurity as an adult', implying it was not normal."
+        },
+        {
+          "id": "3",
+          "type": "True/False/Not Given",
+          "prompt": "Young's talents as a doctor are described as surpassing his other skills.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "explanation": "The text explicitly states: 'Young's skill as a physician, however, did not equal his talent as a scholar of natural philosophy or linguistics'."
+        },
+        {
+          "id": "4",
+          "type": "True/False/Not Given",
+          "prompt": "Young's advice was sought by several bodies responsible for local and national matters.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "The text mentions 'His opinions were requested by civic and national authorities on matters such as the introduction of gas lighting'."
+        },
+        {
+          "id": "5",
+          "type": "True/False/Not Given",
+          "prompt": "All Young's written works were published in the Encyclopaedia Britannica.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "explanation": "The passage states that besides Britannica entries, he 'authored numerous other essays, papers and books'."
+        },
+        {
+          "id": "6",
+          "type": "True/False/Not Given",
+          "prompt": "Young was interested in a range of social pastimes.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "The text mentions he attended the theatre, learned to dance, play the flute, and was an accomplished horseman."
+        },
+        {
+          "id": "7",
+          "type": "True/False/Not Given",
+          "prompt": "Young suffered from poor health in his later years.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "NOT GIVEN",
+          "explanation": "There is no information in the text regarding his health in his later years."
+        },
+        {
+          "id": "8",
+          "type": "Short Answer",
+          "prompt": "How many life stories did Thomas Young write for the Encyclopaedia Britannica?",
+          "options": [],
+          "answer": "46",
+          "explanation": "The text says he contributed 63 articles, 'including 46 biographical entries'."
+        },
+        {
+          "id": "9",
+          "type": "Short Answer",
+          "prompt": "What was the subject of Thomas Young's first academic paper?",
+          "options": [],
+          "answer": "human eye",
+          "explanation": "The text states: 'He presented his first paper, on the human eye...'"
+        },
+        {
+          "id": "10",
+          "type": "Short Answer",
+          "prompt": "What name did Young give to a group of languages?",
+          "options": [],
+          "answer": "Indo-European",
+          "explanation": "The passage says 'Young coined the term \"Indo-European\" to describe the family of languages'."
+        },
+        {
+          "id": "11",
+          "type": "Short Answer",
+          "prompt": "Who inspired Young to enter the medical profession?",
+          "options": [],
+          "answer": "Richard Brocklesby",
+          "explanation": "The passage mentions he was encouraged by Richard Brocklesby and followed his lead into medicine."
+        },
+        {
+          "id": "12",
+          "type": "Short Answer",
+          "prompt": "At which place of higher learning did Young hold a teaching position?",
+          "options": [],
+          "answer": "Royal Institution",
+          "explanation": "He was appointed to a 'professorship of natural philosophy at the Royal Institution'."
+        },
+        {
+          "id": "13",
+          "type": "Short Answer",
+          "prompt": "What was the improvement to London roads on which Young's ideas were sought?",
+          "options": [],
+          "answer": "gas lighting",
+          "explanation": "His opinions were requested on 'the introduction of gas lighting to London streets'."
+        }
+      ],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-17T17:47:15.867Z"
+    },
+    {
+      "id": "ielts-1794937525053",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 1",
+      "title": "Practise 1",
+      "durationMinutes": 23,
+      "passage": "Willpower\n\nA \nAlthough willpower does not shape our decisions, it determines whether and how long we can follow through on them. It almost single-handedly determines life outcomes. Interestingly, research suggests the general population is indeed aware of how essential willpower is to their wellbeing; survey participants routinely identify a ‘lack of willpower’ as the major impediment to making beneficial life changes. There are, however, misunderstandings surrounding the nature of willpower and how we can acquire more of it. There is a widespread misperception, for example, that increased leisure time would lead to subsequent increases in willpower.\n\nB \nAlthough the concept of willpower is often explained through single-word terms, such as ‘resolve’ or ‘drive’, it refers in fact to a variety of behaviours and situations. There is a common perception that willpower entails resisting some kind of a ‘treat’, such as a sugary drink or a lazy morning in bed, in favour of decisions that we know are better for us, such as drinking water or going to the gym. Of course this is a familiar phenomenon for all. Yet willpower also involves elements such as overriding negative thought processes, biting your tongue in social situations, or persevering through a difficult activity. At the heart of any exercise of willpower, however, is the notion of ‘delayed gratification’, which involves resisting immediate satisfaction for a course that will yield greater or more permanent satisfaction in the long run.\n\nC \nScientists are making general investigations into why some individuals are better able than others to delay gratification and thus employ their willpower, but the genetic or environmental origins of this ability remain a mystery for now. Some groups who are particularly vulnerable to reduced willpower capacity, such as those with addictive personalities, may claim a biological origin for their problems. What is clear is that levels of willpower typically remain consistent over time (studies tracking individuals from early childhood to their adult years demonstrate a remarkable consistency in willpower abilities). In the short term, however, our ability to draw on willpower can fluctuate dramatically due to factors such as fatigue, diet and stress. Indeed, research by Matthew Gailliot suggests that willpower, even in the absence of physical activity, both requires and drains blood glucose levels, suggesting that willpower operates more or less like a ‘muscle’, and, like a muscle, requires fuel for optimum functioning.\n\nD \nThese observations lead to an important question: if the strength of our willpower at the age of thirty-five is somehow pegged to our ability at the age of four, are all efforts to improve our willpower certain to prove futile? According to newer research, this is not necessarily the case. Gregory M. Walton, for example, found that a single verbal cue – telling research participants how strenuous mental tasks could ‘energise’ them for further challenging activities – made a profound difference in terms of how much willpower participants could draw upon to complete the activity. Just as our willpower is easily drained by negative influences, it appears that willpower can also be boosted by other prompts, such as encouragement or optimistic self-talk.\n\nE \nStrengthening willpower thus relies on a two-pronged approach: reducing negative influences and improving positive ones. One of the most popular and effective methods simply involves avoiding willpower depletion triggers, and is based on the old adage, ‘out of sight, out of mind’. In one study, workers who kept a bowl of enticing candy on their desks were far more likely to indulge than those who placed it in a desk drawer. It also appears that finding sources of motivation from within us may be important. In another study, Mark Muraven found that those who felt compelled by an external authority to exert self-control experienced far greater rates of willpower depletion than those who identified their own reasons for taking a particular course of action. This idea that our mental convictions can influence willpower was borne out by Veronika Job. Her research indicates that those who think that willpower is a finite resource exhaust their supplies of this commodity long before those who do not hold this opinion.\n\nF \nWillpower is clearly fundamental to our ability to follow through on our decisions but, as psychologist Roy Baumeister has discovered, a lack of willpower may not be the sole impediment every time our good intentions fail to manifest themselves. A critical precursor, he suggests, is motivation – if we are only mildly invested in the change we are trying to make, our efforts are bound to fall short. This may be why so many of us abandon our New Year’s Resolutions – if these were actions we really wanted to take, rather than things we felt we ought to be doing, we would probably be doing them already. In addition, Muraven emphasises the value of monitoring progress towards a desired result, such as by using a fitness journal, or keeping a record of savings toward a new purchase. The importance of motivation and monitoring cannot be overstated. Indeed, it appears that, even when our willpower reserves are entirely depleted, motivation alone may be sufficient to keep us on the course we originally chose.",
+      "transcript": "",
+      "prompt": "",
+      "minWords": 250,
+      "audioUrl": "",
+      "questions": [
+        {
+          "id": "1",
+          "type": "true_false_not_given",
+          "prompt": "Willpower is the most significant factor in determining success in life.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "Paragraph A states that willpower 'almost single-handedly determines life outcomes', which aligns with it being the most significant factor for success."
+        },
+        {
+          "id": "2",
+          "type": "true_false_not_given",
+          "prompt": "People with more free time typically have better willpower.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "explanation": "Paragraph A identifies the idea that increased leisure time leads to increased willpower as a 'widespread misperception'."
+        },
+        {
+          "id": "3",
+          "type": "true_false_not_given",
+          "prompt": "Willpower mostly applies to matters of diet and exercise.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "explanation": "Paragraph B explains that while diet and exercise are familiar examples, willpower also involves overriding negative thoughts, social restraint, and persevering through difficult activities."
+        },
+        {
+          "id": "4",
+          "type": "true_false_not_given",
+          "prompt": "The strongest indicator of willpower is the ability to choose long-term rather than short-term rewards.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "Paragraph B states that at the heart of willpower is 'delayed gratification', which involves resisting immediate satisfaction for greater long-term rewards."
+        },
+        {
+          "id": "5",
+          "type": "true_false_not_given",
+          "prompt": "Researchers have studied the genetic basis of willpower.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "NOT GIVEN",
+          "explanation": "Paragraph C mentions that genetic origins 'remain a mystery for now', but does not explicitly state whether researchers have conducted studies into them."
+        },
+        {
+          "id": "6",
+          "type": "true_false_not_given",
+          "prompt": "Levels of willpower usually stay the same throughout our lives.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "Paragraph C notes that studies tracking individuals from childhood to adulthood demonstrate a 'remarkable consistency in willpower abilities'."
+        },
+        {
+          "id": "7",
+          "type": "true_false_not_given",
+          "prompt": "Regular physical exercise improves our willpower ability.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "NOT GIVEN",
+          "explanation": "While paragraph C mentions willpower works like a muscle and paragraph F mentions fitness journals, there is no statement that regular physical exercise improves willpower capacity."
+        },
+        {
+          "id": "8",
+          "type": "matching",
+          "prompt": "This researcher identified a key factor that is necessary for willpower to function.",
+          "options": [
+            "A. Matthew Gailliot",
+            "B. Gregory M. Walton",
+            "C. Mark Muraven",
+            "D. Veronika Job",
+            "E. Roy Baumeister"
+          ],
+          "answer": "E",
+          "explanation": "Paragraph F states that Roy Baumeister discovered a critical precursor to willpower is motivation."
+        },
+        {
+          "id": "9",
+          "type": "matching",
+          "prompt": "This researcher suggested that willpower is affected by our beliefs.",
+          "options": [
+            "A. Matthew Gailliot",
+            "B. Gregory M. Walton",
+            "C. Mark Muraven",
+            "D. Veronika Job",
+            "E. Roy Baumeister"
+          ],
+          "answer": "D",
+          "explanation": "Paragraph E explains that Veronika Job's research showed that those who think willpower is a finite resource exhaust it sooner."
+        },
+        {
+          "id": "10",
+          "type": "matching",
+          "prompt": "This researcher examined how our body responds to the use of willpower.",
+          "options": [
+            "A. Matthew Gailliot",
+            "B. Gregory M. Walton",
+            "C. Mark Muraven",
+            "D. Veronika Job",
+            "E. Roy Baumeister"
+          ],
+          "answer": "A",
+          "explanation": "Paragraph C mentions research by Matthew Gailliot suggests that willpower requires and drains blood glucose levels."
+        },
+        {
+          "id": "11",
+          "type": "matching",
+          "prompt": "This researcher discovered how important it is to make and track goals.",
+          "options": [
+            "A. Matthew Gailliot",
+            "B. Gregory M. Walton",
+            "C. Mark Muraven",
+            "D. Veronika Job",
+            "E. Roy Baumeister"
+          ],
+          "answer": "C",
+          "explanation": "Paragraph F mentions that Muraven emphasises the value of monitoring progress towards a desired result."
+        },
+        {
+          "id": "12",
+          "type": "matching",
+          "prompt": "This researcher found that taking actions to please others decreases our willpower.",
+          "options": [
+            "A. Matthew Gailliot",
+            "B. Gregory M. Walton",
+            "C. Mark Muraven",
+            "D. Veronika Job",
+            "E. Roy Baumeister"
+          ],
+          "answer": "C",
+          "explanation": "Paragraph E notes that Mark Muraven found those compelled by an external authority experienced greater willpower depletion."
+        },
+        {
+          "id": "13",
+          "type": "matching",
+          "prompt": "This researcher found that willpower can increase through simple positive thoughts.",
+          "options": [
+            "A. Matthew Gailliot",
+            "B. Gregory M. Walton",
+            "C. Mark Muraven",
+            "D. Veronika Job",
+            "E. Roy Baumeister"
+          ],
+          "answer": "B",
+          "explanation": "Paragraph D states that Gregory M. Walton found that a single verbal cue/prompt could energize and boost willpower."
+        },
+        {
+          "id": "14",
+          "type": "multiple_choice",
+          "prompt": "Which of the following is NOT mentioned as a factor in willpower?",
+          "options": [
+            "A. physical factors such as tiredness",
+            "B. our fundamental ability to delay pleasure",
+            "C. the levels of certain chemicals in our brains",
+            "D. environmental cues such as the availability of a trigger"
+          ],
+          "answer": "C",
+          "explanation": "The text mentions tiredness/fatigue (A), delayed gratification/pleasure (B), and triggers like a candy bowl (D), but does not mention specific brain chemicals as a general factor."
+        }
+      ],
+      "createdBy": "rozimatovdoniyor4@gmail.com",
+      "createdAt": "2026-11-17T17:45:25.053Z"
+    },
+    {
+      "id": "ielts-r-p1-01",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 1",
+      "title": "The Architecture of Roman Aqueducts",
+      "durationMinutes": 20,
+      "passage": "The engineering prowess of ancient Rome is nowhere more evident than in its extensive network of aqueducts. Designed to transport fresh water from distant springs and mountain streams into densely populated urban centers, these structures relied almost exclusively on gravity rather than mechanical pumping. Roman surveyors, known as libratores, utilized precision instruments such as the chorobates—a twenty-foot wooden beam fitted with plumb lines and a water trough—to maintain a remarkably consistent downward gradient, often dropping by as little as thirty centimeters per kilometer over distances exceeding eighty kilometers.\n\nContrary to popular belief, the iconic stone arches that span valleys represented only a minor fraction of the total aqueduct system. Roughly eighty percent of the conduits were constructed beneath the earth's surface as stone-lined trenches or rock-cut tunnels. Subterranean routing insulated the water supply from extreme seasonal temperatures, prevented evaporation, and safeguarded vital civic infrastructure against sabotage during military conflicts. Periodic vertical shafts, called putei, were excavated at regular intervals along the underground channels to allow maintenance crews to descend, clear mineral deposits, and repair structural fractures.\n\nUpon reaching the city perimeter, water entered a primary distribution reservoir termed the castellum divisorium. From this central basin, lead or terracotta pipes channeled water into three distinct municipal tiers: public fountains and basins, imperial bathhouses, and private residences belonging to wealthy citizens who paid substantial licensing fees. During periods of severe drought, engineers could selectively restrict flow to private estates while preserving access to public fountains, ensuring civic stability and public hygiene across all social strata.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "prompt": "1. What primary physical principle enabled Roman aqueducts to transport water over long distances?",
+          "options": [
+            "A. Hydraulic piston pumps stationed at intervals",
+            "B. Continuous gravitational slope",
+            "C. Pressurized bronze siphons",
+            "D. Wind-driven water wheels"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that aqueducts 'relied almost exclusively on gravity rather than mechanical pumping'."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "prompt": "2. Why were the majority of Roman aqueduct channels built underground?",
+          "options": [
+            "A. Stone arches were too expensive to quarry",
+            "B. Underground tunnels required no periodic maintenance",
+            "C. Subterranean channels regulated temperature, reduced evaporation, and protected against attacks",
+            "D. Roman law prohibited above-ground construction near farmland"
+          ],
+          "answer": "C",
+          "explanation": "Paragraph 2 specifies insulation from extreme temperatures, prevention of evaporation, and protection against military sabotage."
+        },
+        {
+          "id": "q3",
+          "type": "mcq",
+          "prompt": "3. What was the function of 'putei' along the subterranean conduits?",
+          "options": [
+            "A. Collecting rainwater from surface runoff",
+            "B. Providing vertical access for inspection and cleaning",
+            "C. Measuring water fees for private homeowners",
+            "D. Filtering sediment before water entered the city"
+          ],
+          "answer": "B",
+          "explanation": "Putei were vertical shafts allowing maintenance crews to descend, clear deposits, and repair fractures."
+        },
+        {
+          "id": "q4",
+          "type": "tfng",
+          "prompt": "4. True / False / Not Given: Public fountains were the first water tier to be shut off during droughts.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "explanation": "Engineers restricted flow to private estates while preserving access to public fountains."
+        },
+        {
+          "id": "q5",
+          "type": "tfng",
+          "prompt": "5. True / False / Not Given: The chorobates used a water trough to verify horizontal leveling.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "Paragraph 1 explicitly describes the chorobates as 'fitted with plumb lines and a water trough'."
+        }
+      ]
+    },
+    {
+      "id": "ielts-r-p2-01",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 2",
+      "title": "Mycorrhizal Networks and Forest Resource Sharing",
+      "durationMinutes": 20,
+      "passage": "Beneath the forest floor lies an intricate biological web composed of fungal hyphae intertwined with the root systems of vascular plants. Known as common mycorrhizal networks (CMNs), these symbiotic associations facilitate the bidirectional exchange of essential nutrients. In exchange for carbon-rich sugars synthesized by trees during photosynthesis, mycorrhizal fungi expand the effective surface area of plant roots by orders of magnitude, extracting scarce phosphorus, nitrogen, and trace minerals from tightly bound soil particles.\n\nRecent isotopic tracing experiments conducted in temperate mixed forests have demonstrated that mature canopy trees—frequently termed 'hub trees'—transfer measurable quantities of carbon and defense-signaling compounds to shaded understory seedlings via shared fungal filaments. When a Douglas fir experiences defoliation by herbivorous insects, biochemical stress signals propagate through the mycorrhizal network within twenty-four hours, prompting neighboring pine trees to upregulate defensive resin production prior to direct insect contact.\n\nNevertheless, plant ecologists caution against overly anthropomorphic interpretations of cooperative forest altruism. Nutrient flux within CMNs is governed largely by source-sink concentration gradients and fungal resource allocation strategies rather than conscious botanical generosity. Fungi themselves retain substantial portions of translocated carbon and may preferentially direct phosphorus toward hosts offering higher carbohydrate returns, illustrating a dynamic equilibrium between mutualism and biological market competition.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "prompt": "1. What do plants supply to mycorrhizal fungi in this symbiotic relationship?",
+          "options": [
+            "A. Soil phosphorus and nitrogen",
+            "B. Photosynthetically produced sugars",
+            "C. Defensive insect resins",
+            "D. Underground water reserves"
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 1 notes fungi receive 'carbon-rich sugars synthesized by trees during photosynthesis'."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "prompt": "2. How do neighboring trees respond when a hub tree suffers insect attack?",
+          "options": [
+            "A. They shed their leaves prematurely",
+            "B. They sever their fungal root connections",
+            "C. They increase defensive resin synthesis after receiving biochemical signals",
+            "D. They transfer nitrogen back to the damaged tree"
+          ],
+          "answer": "C",
+          "explanation": "Stress signals prompt neighboring pines 'to upregulate defensive resin production prior to direct insect contact'."
+        },
+        {
+          "id": "q3",
+          "type": "tfng",
+          "prompt": "3. True / False / Not Given: All plant ecologists agree that trees consciously choose which seedlings to support.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "FALSE",
+          "explanation": "Paragraph 3 states ecologists caution against anthropomorphic interpretations and attribute transfer to source-sink gradients and fungal strategies."
+        },
+        {
+          "id": "q4",
+          "type": "tfng",
+          "prompt": "4. True / False / Not Given: Mycorrhizal fungi can favor host plants that provide greater amounts of carbohydrates.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "Fungi 'may preferentially direct phosphorus toward hosts offering higher carbohydrate returns'."
+        }
+      ]
+    },
+    {
+      "id": "ielts-r-p3-01",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 3",
+      "title": "Cognitive Load Theory and Instructional Architecture",
+      "durationMinutes": 20,
+      "passage": "Formulated by educational psychologist John Sweller in the late 1980s, Cognitive Load Theory (CLT) posits that instructional design must align with the architectural constraints of human working memory. Unlike long-term memory, which possesses virtually limitless storage capacity organized into complex cognitive schemas, working memory is severely bottlenecked, capable of processing only a handful of novel information elements simultaneously for brief durations.\n\nSweller categorized cognitive load into three additive components: intrinsic, extraneous, and germane. Intrinsic load reflects the inherent conceptual complexity of the subject matter and the degree of element interactivity required to comprehend it; solving a multi-variable differential equation inherently imposes higher intrinsic load than memorizing isolated vocabulary items. Extraneous load, conversely, arises from suboptimal instructional presentation—such as splitting explanatory diagrams across separate pages or embedding decorative animations that divert attentional resources without aiding schema acquisition.\n\nEffective pedagogy seeks to minimize extraneous load so that finite working memory bandwidth remains available for germane load—the deliberate cognitive effort devoted to constructing and automating schemas in long-term memory. Paradoxically, empirical studies reveal an 'expertise reversal effect': instructional scaffolds such as worked examples substantially accelerate learning among novices, yet the very same guidance impedes advanced learners by forcing them to cross-reference redundant information against already automated mental schemas.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "prompt": "1. According to CLT, what distinguishes long-term memory from working memory?",
+          "options": [
+            "A. Long-term memory processes novel elements faster than working memory",
+            "B. Long-term memory has vast storage structured into schemas, whereas working memory is strictly limited",
+            "C. Working memory retains information permanently without rehearsal",
+            "D. Working memory is unaffected by instructional design"
+          ],
+          "answer": "B",
+          "explanation": "Paragraph 1 contrasts virtually limitless schema-based long-term memory with severely bottlenecked working memory."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "prompt": "2. Which of the following is an example of 'extraneous load'?",
+          "options": [
+            "A. The mathematical complexity of calculus",
+            "B. Automating a problem-solving schema",
+            "C. Distracting visual animations unrelated to the core concept",
+            "D. High element interactivity in organic chemistry"
+          ],
+          "answer": "C",
+          "explanation": "Decorative animations that divert attentional resources without aiding schema acquisition exemplify extraneous load."
+        },
+        {
+          "id": "q3",
+          "type": "mcq",
+          "prompt": "3. What does the 'expertise reversal effect' demonstrate?",
+          "options": [
+            "A. Novices learn best without any worked examples",
+            "B. Instructional scaffolds helpful to beginners can hinder experienced learners",
+            "C. Intrinsic load disappears once a learner reaches mastery",
+            "D. Working memory capacity doubles with age"
+          ],
+          "answer": "B",
+          "explanation": "Worked examples accelerate novice learning but impede advanced learners due to redundant cross-referencing."
+        },
+        {
+          "id": "q4",
+          "type": "tfng",
+          "prompt": "4. True / False / Not Given: Reducing extraneous load frees cognitive capacity for schema construction.",
+          "options": [
+            "TRUE",
+            "FALSE",
+            "NOT GIVEN"
+          ],
+          "answer": "TRUE",
+          "explanation": "Minimizing extraneous load leaves finite working memory bandwidth available for germane load (schema construction)."
+        }
+      ]
+    },
+    {
+      "id": "ielts-l-p1-01",
+      "exam": "IELTS",
+      "section": "Listening",
+      "part": "Part 1",
+      "title": "University Accommodation Office Inquiry",
+      "durationMinutes": 8,
+      "audioUrl": "",
+      "transcript": "Officer: Good morning, Northbridge University Housing Office. How can I assist you?\nStudent: Hello, I'm an incoming postgraduate student looking for on-campus studio accommodation starting this September. My name is Liam Vance.\nOfficer: Welcome, Liam. Let me check availability in St. Jude's Hall. We currently have two single studios left on the third floor. The weekly rent is £185, which includes electricity, heating, and high-speed fiber internet.\nStudent: Does that include a meal plan, or are the studios self-catered?\nOfficer: They are completely self-catered with a private kitchenette. However, you can purchase a dining hall pass separately for £45 per week. Also, please note there is a refundable security deposit of £350 due upon contract signing.\nStudent: That sounds reasonable. How close is St. Jude's Hall to the Engineering Faculty?\nOfficer: It's roughly a twelve-minute walk across the botanical courtyard, or four minutes by bicycle—we have covered cycle storage right behind the reception desk.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "prompt": "1. What is the weekly rent for a studio in St. Jude's Hall?",
+          "options": [
+            "A. £145",
+            "B. £185",
+            "C. £225",
+            "D. £350"
+          ],
+          "answer": "B",
+          "explanation": "The officer states the weekly rent is £185 including utilities and internet."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "prompt": "2. How much is the refundable security deposit?",
+          "options": [
+            "A. £45",
+            "B. £185",
+            "C. £350",
+            "D. £500"
+          ],
+          "answer": "C",
+          "explanation": "A refundable security deposit of £350 is due upon contract signing."
+        },
+        {
+          "id": "q3",
+          "type": "mcq",
+          "prompt": "3. How long does it take to walk from St. Jude's Hall to the Engineering Faculty?",
+          "options": [
+            "A. 4 minutes",
+            "B. 8 minutes",
+            "C. 12 minutes",
+            "D. 20 minutes"
+          ],
+          "answer": "C",
+          "explanation": "It is roughly a twelve-minute walk across the botanical courtyard."
+        }
+      ]
+    },
+    {
+      "id": "ielts-l-p2-01",
+      "exam": "IELTS",
+      "section": "Listening",
+      "part": "Part 2",
+      "title": "Orientation to the Maritime Heritage Museum",
+      "durationMinutes": 8,
+      "audioUrl": "",
+      "transcript": "Good afternoon everyone, and welcome to the Harborview Maritime Heritage Museum. Before you begin exploring, I'd like to outline our floor layout and today's scheduled demonstrations. On the ground floor, directly past the ticket atrium, you will find the Shipbuilding Gallery, which houses original nineteenth-century timber hull models and navigation sextants. Please note that flash photography is strictly prohibited in the Textile and Map Wing on the second floor due to light-sensitive parchment charts. At 2:30 PM, our master riggers will host a live knot-tying and sail-mending workshop on the Outdoor Pier. Finally, lockers for large backpacks are located beside the East Courtyard café and require a £1 coin, which is returned when you retrieve your items.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "prompt": "1. Why is flash photography banned on the second floor?",
+          "options": [
+            "A. To prevent crowding in narrow corridors",
+            "B. Because parchment maps are sensitive to light",
+            "C. Due to ongoing restoration scaffolding",
+            "D. Because commercial filming is underway"
+          ],
+          "answer": "B",
+          "explanation": "Light-sensitive parchment charts are housed in the second-floor Textile and Map Wing."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "prompt": "2. Where will the 2:30 PM workshop take place?",
+          "options": [
+            "A. The Ticket Atrium",
+            "B. The Shipbuilding Gallery",
+            "C. The Outdoor Pier",
+            "D. The East Courtyard Café"
+          ],
+          "answer": "C",
+          "explanation": "Master riggers host the live workshop on the Outdoor Pier at 2:30 PM."
+        }
+      ]
+    },
+    {
+      "id": "ielts-l-p3-01",
+      "exam": "IELTS",
+      "section": "Listening",
+      "part": "Part 3",
+      "title": "Seminar Discussion on Urban Heat Islands",
+      "durationMinutes": 8,
+      "audioUrl": "",
+      "transcript": "Tutor: Maya and Kenji, how is your joint presentation on urban heat island mitigation progressing?\nMaya: Quite well, Dr. Foster. We compared surface temperature satellite datasets across four industrial districts before and after installing reflective white roof coatings.\nKenji: The albedo increase reduced afternoon rooftop temperatures by an average of 4.2 degrees Celsius. However, Maya noticed a methodological flaw when we tried to correlate that directly with pedestrian-level air temperature.\nMaya: Exactly. Street-level temperatures depend heavily on canyon geometry and anthropogenic waste heat from vehicle traffic, not just roof reflectivity. So we decided to add a second dataset measuring street-tree canopy density to isolate the cooling variables properly.\nTutor: That's a very perceptive adjustment. Make sure you highlight that distinction in your methodology slide.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "prompt": "1. By how much did reflective roof coatings lower afternoon rooftop temperatures?",
+          "options": [
+            "A. 1.8°C",
+            "B. 2.4°C",
+            "C. 4.2°C",
+            "D. 6.0°C"
+          ],
+          "answer": "C",
+          "explanation": "Kenji notes afternoon rooftop temperatures fell by an average of 4.2 degrees Celsius."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "prompt": "2. Why did Maya and Kenji add a dataset on street-tree canopy density?",
+          "options": [
+            "A. Their satellite data for rooftops was corrupted",
+            "B. Street-level air temperature is influenced by traffic heat and street geometry",
+            "C. Dr. Foster required at least three graphs",
+            "D. White roofs proved ineffective in winter"
+          ],
+          "answer": "B",
+          "explanation": "Street-level temperatures depend on canyon geometry and traffic waste heat, requiring canopy data to isolate variables."
+        }
+      ]
+    },
+    {
+      "id": "ielts-l-p4-01",
+      "exam": "IELTS",
+      "section": "Listening",
+      "part": "Part 4",
+      "title": "Academic Lecture: Deep-Sea Hydrothermal Vents",
+      "durationMinutes": 8,
+      "audioUrl": "",
+      "transcript": "In today's marine geochemistry lecture, we examine hydrothermal vent ecosystems along mid-ocean ridges. Discovered in 1977 near the Galapagos Rift at depths exceeding 2,500 meters, these vents discharge superheated mineral-laden water reaching up to 400 degrees Celsius—prevented from boiling only by immense hydrostatic pressure. Remarkably, entire biological communities thrive around these vents without sunlight. Instead of photosynthesis, primary production relies on chemosynthesis: specialized bacteria oxidize hydrogen sulfide dissolved in the vent fluid to synthesize organic carbon compounds. Giant tubeworms, Riftia pachyptila, lack a digestive tract entirely and depend on symbiotic chemosynthetic bacteria housed within an internal organ called the trophosome.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "prompt": "1. What prevents 400°C vent water from boiling on the ocean floor?",
+          "options": [
+            "A. High salinity levels",
+            "B. Extreme hydrostatic pressure",
+            "C. Rapid mixing with glacial currents",
+            "D. Dissolved hydrogen sulfide"
+          ],
+          "answer": "B",
+          "explanation": "The lecture states the water is prevented from boiling by immense hydrostatic pressure."
+        },
+        {
+          "id": "q2",
+          "type": "mcq",
+          "prompt": "2. How do giant tubeworms obtain nutrition without a digestive tract?",
+          "options": [
+            "A. By absorbing sunlight filtered through clear water",
+            "B. By filtering microscopic plankton",
+            "C. Through symbiotic chemosynthetic bacteria inside their trophosome",
+            "D. By consuming mineral precipitates directly"
+          ],
+          "answer": "C",
+          "explanation": "They depend on symbiotic chemosynthetic bacteria housed within the trophosome."
+        }
+      ]
+    },
+    {
+      "id": "ielts-w-t1-01",
+      "exam": "IELTS",
+      "section": "Writing",
+      "part": "Task 1",
+      "title": "Academic Task 1 — Global Renewable Electricity Generation (2010–2025)",
+      "durationMinutes": 20,
+      "minWords": 150,
+      "prompt": "You should spend about 20 minutes on this task.\n\nThe summary table below illustrates the share of total electricity generated from four renewable energy sources (Hydropower, Wind, Solar PV, and Bioenergy) across OECD countries between 2010 and 2025.\n\nData Summary:\n- Hydropower: 2010 (13.2%) -> 2015 (12.8%) -> 2020 (13.0%) -> 2025 (12.6%)\n- Wind Power: 2010 (2.8%) -> 2015 (5.6%) -> 2020 (9.4%) -> 2025 (14.8%)\n- Solar PV: 2010 (0.4%) -> 2015 (2.1%) -> 2020 (5.3%) -> 2025 (11.2%)\n- Bioenergy: 2010 (2.1%) -> 2015 (2.9%) -> 2020 (3.4%) -> 2025 (3.7%)\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words."
+    },
+    {
+      "id": "ielts-w-t2-01",
+      "exam": "IELTS",
+      "section": "Writing",
+      "part": "Task 2",
+      "title": "Academic Task 2 — Automation, AI, and Higher Education Curricula",
+      "durationMinutes": 40,
+      "minWords": 250,
+      "prompt": "You should spend about 40 minutes on this task.\n\nWrite about the following topic:\n\nAs artificial intelligence and automation increasingly perform routine analytical and technical tasks, some educators argue that universities should shift their focus away from specialized technical training toward critical thinking, ethics, and interdisciplinary problem-solving.\n\nTo what extent do you agree or disagree with this view?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+    },
+    {
+      "id": "ielts-s-p1-01",
+      "exam": "IELTS",
+      "section": "Speaking",
+      "part": "Part 1",
+      "title": "Part 1 — Introduction & Everyday Academic Habits",
+      "durationMinutes": 5,
+      "prompt": "Examiner Questions (Answer all 3 questions clearly and naturally):\n1. Do you prefer studying in a quiet library or in a place with some background noise? Why?\n2. How has the way you organize your daily schedule changed over the past few years?\n3. What kind of technological tool or application do you rely on most for learning?"
+    },
+    {
+      "id": "ielts-s-p2-01",
+      "exam": "IELTS",
+      "section": "Speaking",
+      "part": "Part 2",
+      "title": "Part 2 — Long Turn Cue Card (1 Min Prep + 2 Min Talk)",
+      "durationMinutes": 3,
+      "prompt": "Describe a complex problem you solved or a challenging project you completed recently.\n\nYou should say:\n- what the problem or project was\n- how you approached planning and executing the solution\n- what obstacles you encountered along the way\nand explain what you learned from this experience."
+    },
+    {
+      "id": "ielts-s-p3-01",
+      "exam": "IELTS",
+      "section": "Speaking",
+      "part": "Part 3",
+      "title": "Part 3 — Abstract Discussion on Innovation & Society",
+      "durationMinutes": 5,
+      "prompt": "Examiner Two-Way Discussion Questions:\n1. Why do some societies adopt technological innovations much more rapidly than others?\n2. Should governments regulate emerging technologies before their societal impacts are fully understood, or does regulation stifle progress?\n3. How might the definition of 'expertise' change in a world where information is instantaneously accessible?"
+    },
+    {
+      "id": "sat-rw-m1-01",
+      "exam": "SAT",
+      "section": "Reading & Writing",
+      "part": "Module 1",
+      "title": "Digital SAT — Reading & Writing Module 1",
+      "durationMinutes": 32,
+      "questions": [
+        {
+          "id": "sat-rw-1",
+          "type": "mcq",
+          "passage": "In 1929, astronomer Edwin Hubble published measurements demonstrating a linear correlation between the distances of galaxies and their recessional velocities. Far from merely cataloguing stellar positions, Hubble's empirical findings _______ the prevailing cosmological consensus of a static, eternal universe, establishing observational foundations for modern expansion models.",
+          "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+          "options": [
+            "A. corroborated",
+            "B. upended",
+            "C. trivialized",
+            "D. foreshadowed"
+          ],
+          "answer": "B",
+          "explanation": "'Upended' accurately conveys that Hubble's findings overturned the existing belief in a static universe."
+        },
+        {
+          "id": "sat-rw-2",
+          "type": "mcq",
+          "passage": "Paleoclimatologists reconstructing Holocene monsoon variability often analyze oxygen isotope ratios (δ18O) preserved within stalagmites. Because calcite precipitation inside limestone caves records the isotopic signature of dripping rainwater over millennia, stalagmites provide continuous, high-resolution terrestrial archives that complement marine sediment cores.",
+          "prompt": "Which choice best states the main purpose of the text?",
+          "options": [
+            "A. To argue that marine sediment cores are less accurate than cave formations",
+            "B. To explain how stalagmites serve as long-term records of historical rainfall patterns",
+            "C. To describe the chemical erosion of limestone caves during the Holocene",
+            "D. To compare oxygen isotopes with carbon dating techniques"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains why stalagmites preserve rainwater isotopic signatures and act as continuous terrestrial climate archives."
+        },
+        {
+          "id": "sat-rw-3",
+          "type": "mcq",
+          "passage": "While many nineteenth-century landscape painters idealized untouched wilderness, Winslow Homer frequently depicted the tense intersection between human labor and volatile coastal weather. In his late seascapes from Prouts Neck, Maine, crashing surf and darkened skies do not merely frame human figures; rather, they assert nature's formidable autonomy.",
+          "prompt": "Based on the text, how does Homer's approach differ from that of many nineteenth-century landscape painters?",
+          "options": [
+            "A. Homer avoided painting coastal regions in favor of urban industry",
+            "B. Homer emphasized nature's raw power in relation to human effort rather than presenting an idealized scene",
+            "C. Homer excluded all traces of human presence from his seascapes",
+            "D. Homer relied exclusively on monochromatic palettes"
+          ],
+          "answer": "B",
+          "explanation": "Unlike contemporaries who idealized wilderness, Homer portrayed the tense intersection of human labor and nature's formidable power."
+        },
+        {
+          "id": "sat-rw-4",
+          "type": "mcq",
+          "passage": "Dr. Elena Vance's team investigated whether urban songbirds adjust vocal frequencies to overcome low-frequency traffic noise. Recording white-crowned sparrows across twenty metropolitan parks, the researchers found that birds in high-decibel corridors consistently shifted their minimum song frequency upward by 350 Hz compared to conspecifics in quiet suburban reserves.",
+          "prompt": "Which finding, if true, would most directly support the researchers' hypothesis that traffic noise drives the frequency shift?",
+          "options": [
+            "A. Sparrows in noisy parks have larger wingspans than suburban sparrows",
+            "B. When temporary road closures reduced traffic noise in a metropolitan park, resident sparrows lowered their minimum song frequencies within two weeks",
+            "C. Suburban reserves contain fewer insect species than metropolitan parks",
+            "D. Female sparrows prefer lower-frequency songs regardless of ambient noise"
+          ],
+          "answer": "B",
+          "explanation": "Observing birds lower their song frequency once traffic noise is removed isolates ambient noise as the causal driver."
+        },
+        {
+          "id": "sat-rw-5",
+          "type": "mcq",
+          "passage": "Quantum error correction requires encoding logical qubits across multiple physical qubits so that local decoherence can be detected without collapsing the computational state. Consequently, scaling fault-tolerant quantum processors _______ substantial overhead in physical qubit counts alongside low-latency classical control electronics.",
+          "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+          "options": [
+            "A. necessitate",
+            "B. necessitates",
+            "C. have necessitated",
+            "D. are necessitating"
+          ],
+          "answer": "B",
+          "explanation": "The singular gerund subject 'scaling fault-tolerant quantum processors' requires the singular verb 'necessitates'."
+        }
+      ]
+    },
+    {
+      "id": "sat-rw-m2-01",
+      "exam": "SAT",
+      "section": "Reading & Writing",
+      "part": "Module 2",
+      "title": "Digital SAT — Reading & Writing Module 2 (Adaptive Upper)",
+      "durationMinutes": 32,
+      "questions": [
+        {
+          "id": "sat-rw2-1",
+          "type": "mcq",
+          "passage": "Economists studying sovereign debt restructuring have noted that collective action clauses (CACs) streamline negotiations by binding dissenting minority bondholders to terms approved by a supermajority. Without CACs, opportunistic 'holdout' creditors can litigate for full principal repayment, thereby _______ timely debt relief for distressed nations.",
+          "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+          "options": [
+            "A. expediting",
+            "B. impeding",
+            "C. subsidizing",
+            "D. ratifying"
+          ],
+          "answer": "B",
+          "explanation": "Holdout litigation obstructs or slows down ('impeding') timely debt restructuring."
+        },
+        {
+          "id": "sat-rw2-2",
+          "type": "mcq",
+          "passage": "Text 1: Literary historian Marcus Thorne argues that modernist poetry's fragmentation mirrored the psychological dislocation caused by mechanized warfare in the early twentieth century.\nText 2: Critic Clara Lin contends that while war intensified modernist experimentation, formal fragmentation had already crystallized prior to 1914 through poets' engagement with urban journalism, cinema, and non-Western visual art.",
+          "prompt": "How would Clara Lin (Text 2) most likely respond to Marcus Thorne's claim (Text 1)?",
+          "options": [
+            "A. By denying that mechanized warfare had any influence on twentieth-century literature",
+            "B. By arguing that modernist fragmentation originated in pre-war aesthetic and media developments rather than solely wartime trauma",
+            "C. By asserting that modernist poets rejected cinema and urban journalism",
+            "D. By agreeing that fragmentation appeared only after 1918"
+          ],
+          "answer": "B",
+          "explanation": "Lin argues fragmentation had already crystallized before 1914 due to cinema, journalism, and visual art."
+        },
+        {
+          "id": "sat-rw2-3",
+          "type": "mcq",
+          "passage": "Synthesizing ammonia via the Haber-Bosch process accounts for roughly 1.4 percent of global carbon dioxide emissions because it relies on steam methane reforming for hydrogen feedstock. Researchers are therefore developing electrocatalytic nitrogen reduction reactors powered by renewable electricity _______ zero-carbon fertilizer production at ambient pressures.",
+          "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+          "options": [
+            "A. to enable",
+            "B. enabled",
+            "C. enables",
+            "D. having enabled"
+          ],
+          "answer": "A",
+          "explanation": "The infinitive 'to enable' properly expresses the purpose of developing the reactors."
+        }
+      ]
+    },
+    {
+      "id": "sat-math-m1-01",
+      "exam": "SAT",
+      "section": "Math",
+      "part": "Module 1",
+      "title": "Digital SAT — Math Module 1",
+      "durationMinutes": 35,
+      "questions": [
+        {
+          "id": "sat-m-1",
+          "type": "mcq",
+          "passage": "Linear Systems & Algebra",
+          "prompt": "If 3x + 2y = 19 and 2x - y = 8, what is the value of x + y?",
+          "options": [
+            "A. 5",
+            "B. 7",
+            "C. 9",
+            "D. 11"
+          ],
+          "answer": "B",
+          "explanation": "From 2x - y = 8, y = 2x - 8. Substituting into 3x + 2(2x - 8) = 19 gives 7x - 16 = 19 -> 7x = 35 -> x = 5, y = 2. Thus x + y = 7."
+        },
+        {
+          "id": "sat-m-2",
+          "type": "mcq",
+          "passage": "Quadratic Functions",
+          "prompt": "The function f(x) = 2(x - 4)^2 - 18 defines a parabola in the xy-plane. What is the positive x-intercept of the graph of y = f(x)?",
+          "options": [
+            "A. 1",
+            "B. 4",
+            "C. 7",
+            "D. 9"
+          ],
+          "answer": "C",
+          "explanation": "Set 2(x - 4)^2 - 18 = 0 -> (x - 4)^2 = 9 -> x - 4 = ±3 -> x = 7 or x = 1. The positive x-intercept is 7."
+        },
+        {
+          "id": "sat-m-3",
+          "type": "mcq",
+          "passage": "Exponential Growth",
+          "prompt": "A bacterial culture triples in population every 4 hours. If the initial population is 250, which equation models the population P after t hours?",
+          "options": [
+            "A. P = 250(3)^(4t)",
+            "B. P = 250(3)^(t/4)",
+            "C. P = 250(4)^(t/3)",
+            "D. P = 750(3)^(t/4)"
+          ],
+          "answer": "B",
+          "explanation": "Initial amount is 250, growth factor is 3, and one compounding period occurs every 4 hours, giving exponent t/4."
+        },
+        {
+          "id": "sat-m-4",
+          "type": "mcq",
+          "passage": "Geometry & Trigonometry",
+          "prompt": "In right triangle ABC, angle C is 90° and sin(A) = 5/13. What is the value of cos(B) + tan(A)?",
+          "options": [
+            "A. 17/156",
+            "B. 65/156",
+            "C. 125/156",
+            "D. 17/12"
+          ],
+          "answer": "C",
+          "explanation": "Since A and B are complementary, cos(B) = sin(A) = 5/13. With opposite=5, hypotenuse=13, adjacent=12, so tan(A) = 5/12. 5/13 + 5/12 = (60 + 65)/156 = 125/156."
+        },
+        {
+          "id": "sat-m-5",
+          "type": "mcq",
+          "passage": "Data Analysis & Statistics",
+          "prompt": "Dataset A consists of {12, 14, 15, 17, 22}. If the value 22 is replaced by 47, which statistic remains unchanged?",
+          "options": [
+            "A. Mean",
+            "B. Median",
+            "C. Range",
+            "D. Standard deviation"
+          ],
+          "answer": "B",
+          "explanation": "The ordered set has 5 elements; the middle (3rd) element is 15 in both cases, so the median remains 15."
+        }
+      ]
+    },
+    {
+      "id": "sat-math-m2-01",
+      "exam": "SAT",
+      "section": "Math",
+      "part": "Module 2",
+      "title": "Digital SAT — Math Module 2 (Adaptive Upper)",
+      "durationMinutes": 35,
+      "questions": [
+        {
+          "id": "sat-m2-1",
+          "type": "mcq",
+          "passage": "Circle Equations",
+          "prompt": "A circle in the xy-plane has equation x^2 + y^2 - 6x + 8y - 11 = 0. What is the area of this circle?",
+          "options": [
+            "A. 6π",
+            "B. 11π",
+            "C. 36π",
+            "D. 64π"
+          ],
+          "answer": "C",
+          "explanation": "Completing the square: (x - 3)^2 + (y + 4)^2 = 11 + 9 + 16 = 36. Thus r^2 = 36 and Area = πr^2 = 36π."
+        },
+        {
+          "id": "sat-m2-2",
+          "type": "mcq",
+          "passage": "Polynomial Remainders",
+          "prompt": "When polynomial P(x) = x^3 - kx^2 + 4x - 12 is divided by (x - 3), the remainder is 0. What is the value of k?",
+          "options": [
+            "A. 2",
+            "B. 3",
+            "C. 4",
+            "D. 5"
+          ],
+          "answer": "B",
+          "explanation": "By the Remainder Theorem, P(3) = 27 - 9k + 12 - 12 = 0 -> 27 - 9k = 0 -> k = 3."
+        },
+        {
+          "id": "sat-m2-3",
+          "type": "mcq",
+          "passage": "Discriminant & Roots",
+          "prompt": "For what value of c does the quadratic equation 4x^2 - 12x + c = 0 have exactly one real solution?",
+          "options": [
+            "A. 3",
+            "B. 6",
+            "C. 9",
+            "D. 36"
+          ],
+          "answer": "C",
+          "explanation": "Discriminant b^2 - 4ac = 0 -> (-12)^2 - 4(4)(c) = 0 -> 144 - 16c = 0 -> c = 9."
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "id": "hist_1794935617096_wfjh",
+      "userId": "usr_1794934437099",
+      "userEmail": "rozimatovdoniyor4@gmail.com",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 1",
+      "mode": "Practice",
+      "title": "Reading — Passage 1",
+      "scoreDisplay": "Band 5.0 (1/5)",
+      "rawScore": 1,
+      "totalQuestions": 5,
+      "durationSeconds": 19,
+      "feedback": "Passage 1 | 1. What primary physical principle enabled Roman aqueducts to transport water over long distances?\nSizning javob: A | To‘g‘ri javob: B (Xato)\nIzoh: The passage states that aqueducts 'relied almost exclusively on gravity rather than mechanical pumping'.\n\n------------------------\n\nPassage 1 | 2. Why were the majority of Roman aqueduct channels built underground?\nSizning javob: Belgilanmagan | To‘g‘ri javob: C (Xato)\nIzoh: Paragraph 2 specifies insulation from extreme temperatures, prevention of evaporation, and protection against military sabotage.\n\n------------------------\n\nPassage 1 | 3. What was the function of 'putei' along the subterranean conduits?\nSizning javob: Belgilanmagan | To‘g‘ri javob: B (Xato)\nIzoh: Putei were vertical shafts allowing maintenance crews to descend, clear deposits, and repair fractures.\n\n------------------------\n\nPassage 1 | 4. True / False / Not Given: Public fountains were the first water tier to be shut off during droughts.\nSizning javob: FALSE | To‘g‘ri javob: FALSE (To‘g‘ri)\nIzoh: Engineers restricted flow to private estates while preserving access to public fountains.\n\n------------------------\n\nPassage 1 | 5. True / False / Not Given: The chorobates used a water trough to verify horizontal leveling.\nSizning javob: Belgilanmagan | To‘g‘ri javob: TRUE (Xato)\nIzoh: Paragraph 1 explicitly describes the chorobates as 'fitted with plumb lines and a water trough'.",
+      "completedAt": "2026-11-17T17:13:37.096Z"
+    },
+    {
+      "id": "hist_1794936416780_6ir1",
+      "userId": "usr_1794936218957",
+      "userEmail": "rozimatovdoni20@gmail.com",
+      "exam": "SAT",
+      "section": "Math",
+      "part": "Module 1",
+      "mode": "Practice",
+      "title": "Digital SAT — Math Module 1",
+      "scoreDisplay": "200 / 800 (0/5)",
+      "rawScore": 0,
+      "totalQuestions": 5,
+      "durationSeconds": 10,
+      "feedback": "Savol 1: If 3x + 2y = 19 and 2x - y = 8, what is the value of x + y?\nSizning javob: A | To‘g‘ri javob: B (Xato)\nIzoh: From 2x - y = 8, y = 2x - 8. Substituting into 3x + 2(2x - 8) = 19 gives 7x - 16 = 19 -> 7x = 35 -> x = 5, y = 2. Thus x + y = 7.\n\n------------------------\n\nSavol 2: The function f(x) = 2(x - 4)^2 - 18 defines a parabola in the xy-plane. What is the positive x-intercept of the graph of y = f(x)?\nSizning javob: Belgilanmagan | To‘g‘ri javob: C (Xato)\nIzoh: Set 2(x - 4)^2 - 18 = 0 -> (x - 4)^2 = 9 -> x - 4 = ±3 -> x = 7 or x = 1. The positive x-intercept is 7.\n\n------------------------\n\nSavol 3: A bacterial culture triples in population every 4 hours. If the initial population is 250, which equation models the population P after t hours?\nSizning javob: Belgilanmagan | To‘g‘ri javob: B (Xato)\nIzoh: Initial amount is 250, growth factor is 3, and one compounding period occurs every 4 hours, giving exponent t/4.\n\n------------------------\n\nSavol 4: In right triangle ABC, angle C is 90° and sin(A) = 5/13. What is the value of cos(B) + tan(A)?\nSizning javob: Belgilanmagan | To‘g‘ri javob: C (Xato)\nIzoh: Since A and B are complementary, cos(B) = sin(A) = 5/13. With opposite=5, hypotenuse=13, adjacent=12, so tan(A) = 5/12. 5/13 + 5/12 = (60 + 65)/156 = 125/156.\n\n------------------------\n\nSavol 5: Dataset A consists of {12, 14, 15, 17, 22}. If the value 22 is replaced by 47, which statistic remains unchanged?\nSizning javob: Belgilanmagan | To‘g‘ri javob: B (Xato)\nIzoh: The ordered set has 5 elements; the middle (3rd) element is 15 in both cases, so the median remains 15.",
+      "completedAt": "2026-11-17T17:26:56.780Z"
+    },
+    {
+      "id": "hist_1794998839028_o4b1",
+      "userId": "usr_1794934437099",
+      "userEmail": "rozimatovdoniyor4@gmail.com",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Reading — Passage 1",
+      "mode": "Practice",
+      "title": "Reading — Passage 1",
+      "scoreDisplay": "Yakunlandi",
+      "rawScore": null,
+      "totalQuestions": null,
+      "durationSeconds": 8,
+      "feedback": null,
+      "completedAt": "2026-11-18T10:47:19.029Z"
+    },
+    {
+      "id": "hist_1794998856967_6n0e",
+      "userId": "usr_1794934437099",
+      "userEmail": "rozimatovdoniyor4@gmail.com",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "IELTS Reading Full Mock",
+      "mode": "Strict Mock",
+      "title": "IELTS Reading Full Mock",
+      "scoreDisplay": "Yakunlandi",
+      "rawScore": null,
+      "totalQuestions": null,
+      "durationSeconds": 11,
+      "feedback": null,
+      "completedAt": "2026-11-18T10:47:36.967Z"
+    },
+    {
+      "id": "hist_1795003116835_o43c",
+      "userId": "usr_1794934437099",
+      "userEmail": "rozimatovdoniyor4@gmail.com",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 1",
+      "mode": "Practice",
+      "title": "Practise 2: Last Man",
+      "scoreDisplay": "Yakunlandi",
+      "rawScore": null,
+      "totalQuestions": null,
+      "durationSeconds": 9,
+      "feedback": null,
+      "completedAt": "2026-11-18T11:58:36.835Z"
+    },
+    {
+      "id": "hist_1795003157126_t9h1",
+      "userId": "usr_1794934437099",
+      "userEmail": "rozimatovdoniyor4@gmail.com",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 1",
+      "mode": "Practice",
+      "title": "Practise 2: Last Man",
+      "scoreDisplay": "Yakunlandi",
+      "rawScore": null,
+      "totalQuestions": null,
+      "durationSeconds": 29,
+      "feedback": null,
+      "completedAt": "2026-11-18T11:59:17.126Z"
+    },
+    {
+      "id": "hist_1795003729118_497h",
+      "userId": "usr_1794934437099",
+      "userEmail": "rozimatovdoniyor4@gmail.com",
+      "exam": "IELTS",
+      "section": "Reading",
+      "part": "Passage 1",
+      "mode": "Practice",
+      "title": "Practise 2: Last Man",
+      "scoreDisplay": "0 / 13 (13 xato)",
+      "rawScore": null,
+      "totalQuestions": null,
+      "durationSeconds": 3,
+      "feedback": null,
+      "completedAt": "2026-11-18T12:08:49.118Z"
+    }
+  ]
+}
