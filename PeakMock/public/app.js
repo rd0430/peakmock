@@ -188,9 +188,8 @@ document.getElementById('tabLoginBtn').addEventListener('click', () => {
   document.getElementById('tabRegisterBtn').classList.remove('active');
   document.getElementById('regNameGroup').classList.add('hidden');
   document.getElementById('authSubmitBtn').textContent = 'Tizimga kirish';
+  document.getElementById('authErrorBox').classList.add('hidden');
 });
-
-
 
 document.getElementById('tabRegisterBtn').addEventListener('click', () => {
   state.authMode = 'register';
@@ -198,20 +197,27 @@ document.getElementById('tabRegisterBtn').addEventListener('click', () => {
   document.getElementById('tabLoginBtn').classList.remove('active');
   document.getElementById('regNameGroup').classList.remove('hidden');
   document.getElementById('authSubmitBtn').textContent = 'Ro‘yxatdan o‘tish';
+  document.getElementById('authErrorBox').classList.add('hidden');
 });
 
 document.getElementById('authForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   const errBox = document.getElementById('authErrorBox');
+  const submitBtn = document.getElementById('authSubmitBtn');
   errBox.classList.add('hidden');
+
+  const origText = submitBtn.textContent;
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Kuting...';
+
   try {
     const endpoint = state.authMode === 'register' ? '/api/auth/register' : '/api/auth/login';
     const payload = state.authMode === 'register' ? {
-      name: document.getElementById('authNameInput').value,
-      email: document.getElementById('authEmailInput').value,
+      name: document.getElementById('authNameInput').value.trim(),
+      email: document.getElementById('authEmailInput').value.trim(),
       password: document.getElementById('authPasswordInput').value
     } : {
-      email: document.getElementById('authEmailInput').value,
+      email: document.getElementById('authEmailInput').value.trim(),
       password: document.getElementById('authPasswordInput').value
     };
     const data = await apiFetch(endpoint, { method: 'POST', body: JSON.stringify(payload) });
@@ -219,10 +225,13 @@ document.getElementById('authForm').addEventListener('submit', async (e) => {
   } catch (err) {
     errBox.textContent = err.message;
     errBox.classList.remove('hidden');
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.textContent = origText;
   }
 });
 
-// Google Client ID ni shu yerga yozing (Google Cloud Console'dan olingan)
+// Google Client ID
 const GOOGLE_CLIENT_ID = '827268717463-6v6hc1tmug9ld5jq07auog7m344qva91.apps.googleusercontent.com';
 
 document.getElementById('googleSsoBtn').addEventListener('click', () => {
@@ -235,7 +244,6 @@ document.getElementById('googleSsoBtn').addEventListener('click', () => {
     client_id: GOOGLE_CLIENT_ID,
     callback: async (response) => {
       try {
-        // JWT tokenni decode qilish (Google foydalanuvchi ma'lumotlarini olish uchun)
         const base64Url = response.credential.split('.')[1];
         const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
         const jsonPayload = decodeURIComponent(atob(base64).split('').map(c => {
@@ -244,7 +252,6 @@ document.getElementById('googleSsoBtn').addEventListener('click', () => {
         
         const googleUser = JSON.parse(jsonPayload);
 
-        // Backendga yuborish
         const data = await apiFetch('/api/auth/google', {
           method: 'POST',
           body: JSON.stringify({
@@ -261,10 +268,8 @@ document.getElementById('googleSsoBtn').addEventListener('click', () => {
     }
   });
 
-  // Google One Tap yoki popup oynasini chiqarish
   google.accounts.id.prompt((notification) => {
     if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
-      // Agar One Tap yopilsa, standart sign-in oynasini chaqirish mumkin
       google.accounts.id.renderButton(
         document.getElementById('googleSsoBtn'),
         { theme: 'outline', size: 'large', width: '100%' }
@@ -272,8 +277,6 @@ document.getElementById('googleSsoBtn').addEventListener('click', () => {
     }
   });
 });
-
-document.getElementById('googleSsoBtn').addEventListener('click', () => promptOAuthModal('google'));
 
 async function handleLoginSuccess(token, user) {
   state.token = token;
@@ -898,7 +901,6 @@ function launchIeltsSession({ mode, title, tests, totalMinutes }) {
     renderSub(false);
   };
 
-  // Sahifani qayta chizmasdan, 1 yoki 2+ variantni tanlash
   window._ieltsOpt = (k, v, maxSelect = 1) => {
     if (maxSelect > 1) {
       let arr = Array.isArray(userAnswers[k]) ? [...userAnswers[k]] : (userAnswers[k] ? [userAnswers[k]] : []);

@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PeakMock — IELTS &amp; Digital SAT Mock va Practice Platformasi</title>
   <link rel="stylesheet" href="/styles.css" />
-  <!-- Desmos Scientific Calculator SDK -->
-   <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 </head>
 <body>
@@ -30,9 +29,7 @@
 
     <div class="nav-actions">
       <button class="icon-btn" id="themeToggleBtn" title="Kun / Tun rejimi">
-        <span id="themeIcon">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </span>
+        <span id="themeIcon">🌙</span>
         <span id="themeLabel">Tun rejimi</span>
       </button>
       <button class="icon-btn hidden" id="logoutBtn">Chiqish</button>
@@ -80,7 +77,6 @@
       </form>
     </div>
   </main>
-  <!-- Ro'yxatdan o'tish formasi -->
 
   <!-- ==================== 2. MAIN HUB VIEW ==================== -->
   <section id="hubView" class="container hidden">
@@ -96,7 +92,6 @@
     </div>
 
     <div class="exam-grid">
-      <!-- IELTS CARD -->
       <div class="exam-card">
         <div>
           <span class="exam-tag tag-ielts">Academic &amp; General</span>
@@ -112,7 +107,6 @@
         <button class="btn btn-primary" onclick="navigateTo('ielts')">IELTS Platformasini Ochish</button>
       </div>
 
-      <!-- SAT CARD -->
       <div class="exam-card">
         <div>
           <span class="exam-tag tag-sat">College Board Bluebook Style</span>
@@ -129,7 +123,6 @@
       </div>
     </div>
 
-    <!-- RECENT ACTIVITY SUMMARY -->
     <div class="card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
         <h3 style="font-size: 1.1rem; font-weight: 700;">So‘nggi topshirilgan imtihonlar tarixi</h3>
@@ -146,34 +139,17 @@
         <div style="font-size: 0.75rem; color: #60a5fa; font-weight: 700; text-transform: uppercase;">PeakMock Engine</div>
         <div style="font-size: 1.15rem; font-weight: 800; color: #ffffff;">IELTS Academic</div>
       </div>
-
-      <div class="sidebar-section-label">Bo‘limlar (Bosib ochish)</div>
-
-      <!-- READING GROUP -->
+      <div class="sidebar-section-label">Bo‘limlar</div>
       <div class="sidebar-group" id="grp-reading">
-        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-reading')">
-          <span style="display:flex; align-items:center; gap:8px;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-0.5-0.5z"/><path d="M6 6h12M6 10h12"/></svg>
-            Reading
-          </span>
-          <span class="chev">▾</span>
-        </button>
+        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-reading')"><span>Reading</span><span class="chev">▾</span></button>
         <div class="sidebar-submenu">
           <button class="submenu-btn" onclick="startIeltsPart('Reading', 'Passage 1')">Passage 1</button>
           <button class="submenu-btn" onclick="startIeltsPart('Reading', 'Passage 2')">Passage 2</button>
           <button class="submenu-btn" onclick="startIeltsPart('Reading', 'Passage 3')">Passage 3</button>
         </div>
       </div>
-
-      <!-- LISTENING GROUP -->
       <div class="sidebar-group" id="grp-listening">
-        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-listening')">
-          <span style="display:flex; align-items:center; gap:8px;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
-            Listening
-          </span>
-          <span class="chev">▾</span>
-        </button>
+        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-listening')"><span>Listening</span><span class="chev">▾</span></button>
         <div class="sidebar-submenu">
           <button class="submenu-btn" onclick="startIeltsPart('Listening', 'Part 1')">Part 1</button>
           <button class="submenu-btn" onclick="startIeltsPart('Listening', 'Part 2')">Part 2</button>
@@ -181,65 +157,23 @@
           <button class="submenu-btn" onclick="startIeltsPart('Listening', 'Part 4')">Part 4</button>
         </div>
       </div>
-
-      <!-- WRITING GROUP -->
       <div class="sidebar-group" id="grp-writing">
-        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-writing')">
-          <span style="display:flex; align-items:center; gap:8px;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-            Writing (AI)
-          </span>
-          <span class="chev">▾</span>
-        </button>
+        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-writing')"><span>Writing (AI)</span><span class="chev">▾</span></button>
         <div class="sidebar-submenu">
           <button class="submenu-btn" onclick="startIeltsPart('Writing', 'Task 1')">Task 1 (Report)</button>
           <button class="submenu-btn" onclick="startIeltsPart('Writing', 'Task 2')">Task 2 (Essay)</button>
         </div>
       </div>
-
-      <!-- SPEAKING GROUP -->
       <div class="sidebar-group" id="grp-speaking">
-        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-speaking')">
-          <span style="display:flex; align-items:center; gap:8px;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
-            Speaking (AI)
-          </span>
-          <span class="chev">▾</span>
-        </button>
+        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-speaking')"><span>Speaking (AI)</span><span class="chev">▾</span></button>
         <div class="sidebar-submenu">
           <button class="submenu-btn" onclick="startIeltsPart('Speaking', 'Part 1')">Part 1 (Intro)</button>
           <button class="submenu-btn" onclick="startIeltsPart('Speaking', 'Part 2')">Part 2 (Cue Card)</button>
           <button class="submenu-btn" onclick="startIeltsPart('Speaking', 'Part 3')">Part 3 (Discussion)</button>
         </div>
       </div>
-
-      <div class="sidebar-section-label">Imtihon Rejimlari</div>
-
-      <button type="button" class="sidebar-item" onclick="openIeltsStrictMockHub()">
-        <span style="display:flex; align-items:center; gap:8px;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          Mock (Strict Rejim)
-        </span>
-      </button>
-
-      <button type="button" class="sidebar-item" onclick="openIeltsMixedPracticeBuilder()">
-        <span style="display:flex; align-items:center; gap:8px;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
-          Practise (Mixed)
-        </span>
-      </button>
-
-      <button type="button" class="sidebar-item" onclick="renderIeltsHistoryView()">
-        <span style="display:flex; align-items:center; gap:8px;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-          IELTS Tarixi
-        </span>
-      </button>
     </aside>
-
-    <main class="workspace-main" id="ieltsWorkspaceContent">
-      <!-- Populated dynamically by app.js -->
-    </main>
+    <main class="workspace-main" id="ieltsWorkspaceContent"></main>
   </section>
 
   <!-- ==================== 4. SAT BLUEBOOK WORKSPACE ==================== -->
@@ -249,64 +183,23 @@
         <div style="font-size: 0.75rem; color: #2dd4bf; font-weight: 700; text-transform: uppercase;">Bluebook Engine</div>
         <div style="font-size: 1.15rem; font-weight: 800; color: #ffffff;">Digital SAT</div>
       </div>
-
-      <div class="sidebar-section-label">Bo‘limlar (Bosib ochish)</div>
-
+      <div class="sidebar-section-label">Bo‘limlar</div>
       <div class="sidebar-group" id="grp-sat-rw">
-        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-sat-rw')">
-          <span style="display:flex; align-items:center; gap:8px;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-            Reading &amp; Writing
-          </span>
-          <span class="chev">▾</span>
-        </button>
+        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-sat-rw')"><span>Reading &amp; Writing</span><span class="chev">▾</span></button>
         <div class="sidebar-submenu">
           <button class="submenu-btn" onclick="startSatModule('Reading & Writing', 'Module 1', false)">Module 1 (32 min)</button>
           <button class="submenu-btn" onclick="startSatModule('Reading & Writing', 'Module 2', false)">Module 2 (32 min)</button>
         </div>
       </div>
-
       <div class="sidebar-group" id="grp-sat-math">
-        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-sat-math')">
-          <span style="display:flex; align-items:center; gap:8px;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="12" y1="8" x2="12" y2="16"/></svg>
-            Math
-          </span>
-          <span class="chev">▾</span>
-        </button>
+        <button type="button" class="sidebar-item" onclick="toggleSidebarGroup('grp-sat-math')"><span>Math</span><span class="chev">▾</span></button>
         <div class="sidebar-submenu">
           <button class="submenu-btn" onclick="startSatModule('Math', 'Module 1', false)">Module 1 (35 min)</button>
           <button class="submenu-btn" onclick="startSatModule('Math', 'Module 2', false)">Module 2 (35 min)</button>
         </div>
       </div>
-
-      <div class="sidebar-section-label">Imtihon Rejimlari</div>
-
-      <button type="button" class="sidebar-item" onclick="openSatStrictMockHub()">
-        <span style="display:flex; align-items:center; gap:8px;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          SAT Strict Mock
-        </span>
-      </button>
-
-      <button type="button" class="sidebar-item" onclick="openSatMixedPracticeBuilder()">
-        <span style="display:flex; align-items:center; gap:8px;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
-          SAT Mixed Practise
-        </span>
-      </button>
-
-      <button type="button" class="sidebar-item" onclick="renderSatHistoryView()">
-        <span style="display:flex; align-items:center; gap:8px;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-          SAT Tarixi
-        </span>
-      </button>
     </aside>
-
-    <main class="workspace-main" id="satWorkspaceContent">
-      <!-- Populated dynamically by app.js -->
-    </main>
+    <main class="workspace-main" id="satWorkspaceContent"></main>
   </section>
 
   <!-- ==================== 5. PROFILE VIEW ==================== -->
@@ -337,112 +230,25 @@
           <span id="profSavedMsg" class="hidden" style="margin-left: 10px; color: var(--success); font-weight: 600; font-size: 0.88rem;">Saqlandi!</span>
         </form>
       </div>
-
       <div class="card">
-        <h2 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 14px;">Statistika va Ko‘rsatkichlar</h2>
+        <h2 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 14px;">Statistika</h2>
         <div class="band-grid" id="profileStatsGrid"></div>
       </div>
     </div>
-
     <div class="card">
-      <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 14px;">To‘liq Imtihonlar Tarixi (IELTS &amp; SAT)</h3>
+      <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 14px;">Imtihonlar Tarixi</h3>
       <div id="fullHistoryTableWrap"></div>
     </div>
   </section>
 
-  <!-- ==================== 6. ADMIN STUDIO VIEW (ONLY rozimatovdoniyor4@gmail.com) ==================== -->
+  <!-- ==================== 6. ADMIN STUDIO VIEW ==================== -->
   <section id="adminView" class="container hidden">
-    <div class="card" style="border-left: 4px solid var(--warning);">
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-        <div>
-          <span class="exam-tag" style="background: var(--warning-soft); color: var(--warning);">Bosh Administrator Paneli</span>
-          <h1 style="font-size: 1.5rem; font-weight: 800;">PeakMock AI Test Generator (Gemini 3 Flash)</h1>
-          <p style="color: var(--text-secondary); font-size: 0.92rem;">PDF savollar, Task 1 rasmlari yoki CD audio fayllarni yuklang. Tizim AI yordamida uni avtomatik interaktiv testga aylantiradi.</p>
-        </div>
-      </div>
-    </div>
-
     <div class="card">
-      <form id="adminImportForm">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
-          <div class="form-group">
-            <label class="form-label">1. Imtihon Turi</label>
-            <select class="select" id="adminExamSelect" required>
-              <option value="IELTS">IELTS</option>
-              <option value="SAT">SAT </option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label">2. Qaysi Bo‘lim</label>
-            <select class="select" id="adminSectionSelect" required>
-              <option value="Reading">Reading</option>
-              <option value="Listening">Listening</option>
-              <option value="Writing">Writing</option>
-              <option value="Speaking">Speaking</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label">3. Qaysi Qism / Part / Module</label>
-            <select class="select" id="adminPartSelect" required>
-              <option value="Passage 1">Passage 1</option>
-              <option value="Passage 2">Passage 2</option>
-              <option value="Passage 3">Passage 3</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label">4. Vaqt limiti (daqiqa)</label>
-            <input type="number" class="input" id="adminDurationInput" value="20" min="1" max="180" />
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Test Sarlavhasi (Ixtiyoriy)</label>
-          <input type="text" class="input" id="adminTitleInput" placeholder="Masalan: Cambridge IELTS Test 1 — Reading Passage 1" />
-        </div>
-
-        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
-          <div class="form-group">
-            <label class="form-label">PDF Savollar Fayli (.pdf)</label>
-            <input type="file" class="input" id="adminPdfInput" accept="application/pdf" />
-          </div>
-          <div class="form-group">
-            <label class="form-label">Task 1 Rasm / Grafik (.png, .jpg)</label>
-            <input type="file" class="input" id="adminImageInput" accept="image/*" />
-          </div>
-          <div class="form-group">
-            <label class="form-label">Listening CD Audio (.mp3, .wav)</label>
-            <input type="file" class="input" id="adminAudioInput" accept="audio/*" />
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Adminga maxsus izoh / Ko‘rsatma (AI uchun)</label>
-          <textarea class="textarea" id="adminCommentInput" rows="2" placeholder="Masalan: Ushbu grafikdagi ma'lumotlarni chuqur tahlil qiling..."></textarea>
-        </div>
-
-        <div class="form-group">
-          <label class="form-label">Yoki matnni to‘g‘ridan-to‘g‘ri kiriting</label>
-          <textarea class="textarea" id="adminRawTextInput" rows="3" placeholder="Savollar matnini bu yerga joylashtirishingiz mumkin..."></textarea>
-        </div>
-
-        <div id="adminImportStatus" class="hidden" style="margin-bottom: 14px; padding: 12px; border-radius: 6px; font-weight: 600;"></div>
-
-        <button type="submit" class="btn btn-primary" id="adminImportBtn">
-          AI Assistent orqali Testga Aylantirish va Saqlash
-        </button>
-      </form>
-    </div>
-
-    <div class="card">
-      <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 14px;">Bazadagi Barcha Testlar</h3>
+      <h1>Admin Studio</h1>
       <div id="adminTestsListWrap"></div>
     </div>
   </section>
 
-  <!-- ==================== MODALS ==================== -->
   <div id="genericModal" class="modal-backdrop hidden">
     <div class="modal-card" id="genericModalContent"></div>
   </div>
