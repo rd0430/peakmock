@@ -171,7 +171,7 @@ app.get('/api/health', (req, res) => {
 // Server.js ga qo'shiladigan qism
 app.post('/api/auth/google', async (req, res) => {
   try {
-    const { email, name, googleid } = req.body;
+    const { email, name, googleId } = req.body;
     if (!email) {
       return res.status(400).json({ error: 'Google ma’lumotlari topilmadi.' });
     }
@@ -211,6 +211,15 @@ app.post('/api/auth/google', async (req, res) => {
   } catch (err) {
     console.error('Google Auth Error:', err);
     res.status(500).json({ error: 'Google orqali kirishda xatolik yuz berdi.' });
+  }
+});
+app.post('/api/auth/register', async (req, res) => {
+  try {
+    const { name, email, password } = req.body;
+    // ro'yxatdan o'tkazish logikasi
+    res.json({ success: true, message: "Muvaffaqiyatli ro'yxatdan o'tdingiz" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 
@@ -373,16 +382,6 @@ app.get('/api/history', authenticate, (req, res) => {
   if (section) items = items.filter((h) => h.section.toLowerCase() === section.toLowerCase());
   items.sort((a, b) => new Date(b.completedAt) - new Date(a.completedAt));
   res.json({ history: items });
-});
-
-app.post('/api/auth/register', async (req, res) => {
-  try {
-    const { name, email, password } = req.body;
-    // ro'yxatdan o'tkazish logikasi
-    res.json({ success: true, message: "Muvaffaqiyatli ro'yxatdan o'tdingiz" });
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-  }
 });
 
 app.post('/api/history', authenticate, (req, res) => {
