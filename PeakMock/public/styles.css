@@ -1148,8 +1148,3 @@ body {
   color: #0d7a5f;
   background: var(--bg-subtle);
 }
-
-/* Forma dastlab yashirin turadi */
-.auth-form-hidden {
-  display: none !important;
-}
