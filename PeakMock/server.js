@@ -135,6 +135,19 @@ function signToken(user) {
   );
 }
 
+function formatUserResponse(user) {
+  return {
+    id: user.id,
+    name: user.name,
+    email: user.email,
+    provider: user.provider || 'local',
+    targetIelts: user.targetIelts || '8.0',
+    targetSat: user.targetSat || '1520',
+    isAdmin: isAdminEmail(user.email),
+    createdAt: user.createdAt
+  };
+}
+
 function authenticate(req, res, next) {
   const header = req.headers.authorization || '';
   const token = header.startsWith('Bearer ') ? header.slice(7) : null;
@@ -168,58 +181,49 @@ app.get('/api/health', (req, res) => {
 });
 
 // ================= AUTH ROUTES =================
-// Server.js ga qo'shiladigan qism
-app.post('/api/auth/google', async (req, res) => {
-  try {
-    const { email, name, googleId } = req.body;
-    if (!email) {
-      return res.status(400).json({ error: 'Google ma’lumotlari topilmadi.' });
-    }
-
-    const normalizedEmail = email.toLowerCase().trim();
-    const db = loadDB();
-    let user = db.users.find((u) => u.email === normalizedEmail);
-
-    if (!user) {
-      user = {
-        id: `usr_${Date.now()}`,
-        name: (name && name.trim()) || normalizedEmail.split('@')[0],
-        email: normalizedEmail,
-        provider: 'google',
-        targetIelts: '8.0',
-        targetSat: '1520',
-        createdAt: new Date().toISOString()
-      };
-      db.users.push(user);
-      saveDB(db);
-    }
-
-    const token = signToken(user);
-    res.json({
-      token,
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email,
-        provider: user.provider,
-        targetIelts: user.targetIelts || '8.0',
-        targetSat: user.targetSat || '1520',
-        isAdmin: isAdminEmail(user.email),
-        createdAt: user.createdAt
-      }
-    });
-  } catch (err) {
-    console.error('Google Auth Error:', err);
-    res.status(500).json({ error: 'Google orqali kirishda xatolik yuz berdi.' });
-  }
-});
 app.post('/api/auth/register', async (req, res) => {
   try {
     const { name, email, password } = req.body;
-    // ro'yxatdan o'tkazish logikasi
-    res.json({ success: true, message: "Muvaffaqiyatli ro'yxatdan o'tdingiz" });
+
+    if (!email || !password) {
+      return res.status(400).json({ error: 'Email va parolni kiriting.' });
+    }
+    if (String(password).length < 6) {
+      return res.status(400).json({ error: 'Parol kamida 6 ta belgidan iborat bo‘lishi kerak.' });
+    }
+
+    const normalizedEmail = email.toLowerCase().trim();
+    const cleanName = (name && name.trim()) || normalizedEmail.split('@')[0];
+
+    const db = loadDB();
+    const existingUser = db.users.find((u) => u.email === normalizedEmail);
+    if (existingUser) {
+      return res.status(400).json({ error: 'Bu email manzili allaqachon ro‘yxatdan o‘tgan.' });
+    }
+
+    const passwordHash = await bcrypt.hash(String(password), 10);
+    const newUser = {
+      id: `usr_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+      name: cleanName,
+      email: normalizedEmail,
+      passwordHash,
+      provider: 'local',
+      targetIelts: '8.0',
+      targetSat: '1520',
+      createdAt: new Date().toISOString()
+    };
+
+    db.users.push(newUser);
+    saveDB(db);
+
+    const token = signToken(newUser);
+    return res.status(201).json({
+      token,
+      user: formatUserResponse(newUser)
+    });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error('Register error:', err);
+    return res.status(500).json({ error: 'Ro‘yxatdan o‘tishda xatolik yuz berdi.' });
   }
 });
 
@@ -237,30 +241,57 @@ app.post('/api/auth/login', async (req, res) => {
     }
     if (!user.passwordHash) {
       return res.status(400).json({
-        error: `Bu hisob ${user.provider.toUpperCase()} orqali yaratilgan. Shu tugma orqali kiring.`
+        error: `Bu hisob ${(user.provider || 'GOOGLE').toUpperCase()} orqali yaratilgan. Shu tugma orqali kiring.`
       });
     }
-    const valid = await bcrypt.compare(password, user.passwordHash);
+    const valid = await bcrypt.compare(String(password), user.passwordHash);
     if (!valid) {
       return res.status(401).json({ error: 'Email yoki parol noto‘g‘ri.' });
     }
     const token = signToken(user);
-    res.json({
+    return res.json({
       token,
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email,
-        provider: user.provider,
-        targetIelts: user.targetIelts || '8.0',
-        targetSat: user.targetSat || '1520',
-        isAdmin: isAdminEmail(user.email),
-        createdAt: user.createdAt
-      }
+      user: formatUserResponse(user)
     });
   } catch (err) {
     console.error('Login error:', err);
-    res.status(500).json({ error: 'Kirishda xatolik yuz berdi.' });
+    return res.status(500).json({ error: 'Kirishda xatolik yuz berdi.' });
+  }
+});
+
+app.post('/api/auth/google', async (req, res) => {
+  try {
+    const { email, name } = req.body;
+    if (!email) {
+      return res.status(400).json({ error: 'Google ma’lumotlari topilmadi.' });
+    }
+
+    const normalizedEmail = email.toLowerCase().trim();
+    const db = loadDB();
+    let user = db.users.find((u) => u.email === normalizedEmail);
+
+    if (!user) {
+      user = {
+        id: `usr_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+        name: (name && name.trim()) || normalizedEmail.split('@')[0],
+        email: normalizedEmail,
+        provider: 'google',
+        targetIelts: '8.0',
+        targetSat: '1520',
+        createdAt: new Date().toISOString()
+      };
+      db.users.push(user);
+      saveDB(db);
+    }
+
+    const token = signToken(user);
+    return res.json({
+      token,
+      user: formatUserResponse(user)
+    });
+  } catch (err) {
+    console.error('Google Auth Error:', err);
+    return res.status(500).json({ error: 'Google orqali kirishda xatolik yuz berdi.' });
   }
 });
 
@@ -276,7 +307,7 @@ app.post('/api/auth/oauth', (req, res) => {
     let user = db.users.find((u) => u.email === normalizedEmail);
     if (!user) {
       user = {
-        id: `usr_${Date.now()}`,
+        id: `usr_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
         name: cleanName,
         email: normalizedEmail,
         provider: 'google',
@@ -288,22 +319,13 @@ app.post('/api/auth/oauth', (req, res) => {
       saveDB(db);
     }
     const token = signToken(user);
-    res.json({
+    return res.json({
       token,
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email,
-        provider: user.provider,
-        targetIelts: user.targetIelts || '8.0',
-        targetSat: user.targetSat || '1520',
-        isAdmin: isAdminEmail(user.email),
-        createdAt: user.createdAt
-      }
+      user: formatUserResponse(user)
     });
   } catch (err) {
     console.error('OAuth error:', err);
-    res.status(500).json({ error: 'OAuth avtorizatsiyada xatolik.' });
+    return res.status(500).json({ error: 'OAuth avtorizatsiyada xatolik.' });
   }
 });
 
@@ -318,17 +340,8 @@ app.get('/api/auth/me', authenticate, (req, res) => {
       }
     });
   }
-  res.json({
-    user: {
-      id: user.id,
-      name: user.name,
-      email: user.email,
-      provider: user.provider || 'local',
-      targetIelts: user.targetIelts || '8.0',
-      targetSat: user.targetSat || '1520',
-      isAdmin: isAdminEmail(user.email),
-      createdAt: user.createdAt
-    }
+  return res.json({
+    user: formatUserResponse(user)
   });
 });
 
@@ -341,17 +354,8 @@ app.patch('/api/auth/profile', authenticate, (req, res) => {
   if (targetIelts) user.targetIelts = String(targetIelts);
   if (targetSat) user.targetSat = String(targetSat);
   saveDB(db);
-  res.json({
-    user: {
-      id: user.id,
-      name: user.name,
-      email: user.email,
-      provider: user.provider || 'local',
-      targetIelts: user.targetIelts,
-      targetSat: user.targetSat,
-      isAdmin: isAdminEmail(user.email),
-      createdAt: user.createdAt
-    }
+  return res.json({
+    user: formatUserResponse(user)
   });
 });
 
@@ -623,8 +627,6 @@ Convert the attached exam document/image/text into a clean, structured interacti
 ${adminComment ? `\nAdmin Special Instructions/Comment:\n${adminComment}` : ''}
 
 Rules:
-- For multiple-choice or True/False/Not Given questions, put choices in "options" (e.g., ["A. ...", "B. ..."] or ["TRUE", "FALSE", "NOT GIVEN"]) and the correct answer in "answer".
-- For gap-filling or short-answer questions, set "type": "gap_fill", leave "options": [], and put the exact expected short answer in "answer".
 - For multiple-choice or True/False/Not Given questions, put choices in "options" (e.g., ["A. ...", "B. ..."] or ["TRUE", "FALSE", "NOT GIVEN"]) and the correct answer in "answer".
 - For "Choose TWO/THREE letters" questions, either create a single question with "type": "multi", "maxSelect": 2, and "answer": "B, D" OR separate questions with their respective single answer.
 - For gap-filling or short-answer questions, set "type": "gap_fill", leave "options": [], and put the exact expected short answer in "answer".
