@@ -220,33 +220,56 @@ document.getElementById('authForm').addEventListener('submit', async (e) => {
   }
 });
 
-function promptOAuthModal(provider) {
-  openModal(`
-    <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 8px;">Google orqali kirish</h3>
-    <form id="oauthConfirmForm">
-      <div class="form-group"><label class="form-label">Ism</label><input type="text" class="input" id="oauthNameField" value="Doniyorbek Ro‘zimatov" required /></div>
-      <div class="form-group"><label class="form-label">Email</label><input type="email" class="input" id="oauthEmailField" placeholder="rozimatovdoniyor4@gmail.com" required /></div>
-      <div style="text-align: right; margin-top: 14px;"><button type="submit" class="btn btn-primary">Kirish</button></div>
-    </form>
-  `);
-  document.getElementById('oauthConfirmForm').addEventListener('submit', async (e) => {
-    e.preventDefault();
-    try {
-      const data = await apiFetch('/api/auth/oauth', {
-        method: 'POST',
-        body: JSON.stringify({
-          provider,
-          email: document.getElementById('oauthEmailField').value,
-          name: document.getElementById('oauthNameField').value
-        })
-      });
-      closeModal();
-      handleLoginSuccess(data.token, data.user);
-    } catch (err) {
-      alert(err.message);
+// Google Client ID ni shu yerga yozing (Google Cloud Console'dan olingan)
+const GOOGLE_CLIENT_ID = 'SIZNING_GOOGLE_CLIENT_ID.apps.googleusercontent.com';
+
+document.getElementById('googleSsoBtn').addEventListener('click', () => {
+  if (!window.google) {
+    alert('Google sign-in kutubxonasi yuklanmadi. Internet aloqasini tekshiring.');
+    return;
+  }
+
+  google.accounts.id.initialize({
+    client_id: GOOGLE_CLIENT_ID,
+    callback: async (response) => {
+      try {
+        // JWT tokenni decode qilish (Google foydalanuvchi ma'lumotlarini olish uchun)
+        const base64Url = response.credential.split('.')[1];
+        const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+        const jsonPayload = decodeURIComponent(atob(base64).split('').map(c => {
+          return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+        
+        const googleUser = JSON.parse(jsonPayload);
+
+        // Backendga yuborish
+        const data = await apiFetch('/api/auth/google', {
+          method: 'POST',
+          body: JSON.stringify({
+            email: googleUser.email,
+            name: googleUser.name,
+            googleId: googleUser.sub
+          })
+        });
+
+        handleLoginSuccess(data.token, data.user);
+      } catch (err) {
+        alert('Google orqali kirish xatoligi: ' + err.message);
+      }
     }
   });
-}
+
+  // Google One Tap yoki popup oynasini chiqarish
+  google.accounts.id.prompt((notification) => {
+    if (notification.isNotDisplayed() || notification.isSkippedMoment()) {
+      // Agar One Tap yopilsa, standart sign-in oynasini chaqirish mumkin
+      google.accounts.id.renderButton(
+        document.getElementById('googleSsoBtn'),
+        { theme: 'outline', size: 'large', width: '100%' }
+      );
+    }
+  });
+});
 
 document.getElementById('googleSsoBtn').addEventListener('click', () => promptOAuthModal('google'));
 

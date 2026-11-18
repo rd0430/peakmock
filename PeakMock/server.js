@@ -168,51 +168,49 @@ app.get('/api/health', (req, res) => {
 });
 
 // ================= AUTH ROUTES =================
-app.post('/api/auth/register', async (req, res) => {
+// Server.js ga qo'shiladigan qism
+app.post('/api/auth/google', async (req, res) => {
   try {
-    const { name, email, password } = req.body;
-    if (!name || !email || !password) {
-      return res.status(400).json({ error: 'Ism, email va parol kiritilishi shart.' });
+    const { email, name, googleId } = req.body;
+    if (!email) {
+      return res.status(400).json({ error: 'Google ma’lumotlari topilmadi.' });
     }
-    if (password.length < 6) {
-      return res.status(400).json({ error: 'Parol kamida 6 ta belgidan iborat bo‘lishi kerak.' });
-    }
+
     const normalizedEmail = email.toLowerCase().trim();
     const db = loadDB();
-    if (db.users.some((u) => u.email === normalizedEmail)) {
-      return res.status(409).json({ error: 'Ushbu email allaqachon ro‘yxatdan o‘tgan.' });
-    }
-    const passwordHash = await bcrypt.hash(password, 10);
-    const newUser = {
-      id: `usr_${Date.now()}`,
-      name: name.trim(),
-      email: normalizedEmail,
-      passwordHash,
-      provider: 'local',
-      targetIelts: '8.0',
-      targetSat: '1520',
-      createdAt: new Date().toISOString()
-    };
-    db.users.push(newUser);
-    saveDB(db);
+    let user = db.users.find((u) => u.email === normalizedEmail);
 
-    const token = signToken(newUser);
+    if (!user) {
+      user = {
+        id: `usr_${Date.now()}`,
+        name: (name && name.trim()) || normalizedEmail.split('@')[0],
+        email: normalizedEmail,
+        provider: 'google',
+        targetIelts: '8.0',
+        targetSat: '1520',
+        createdAt: new Date().toISOString()
+      };
+      db.users.push(user);
+      saveDB(db);
+    }
+
+    const token = signToken(user);
     res.json({
       token,
       user: {
-        id: newUser.id,
-        name: newUser.name,
-        email: newUser.email,
-        provider: newUser.provider,
-        targetIelts: newUser.targetIelts,
-        targetSat: newUser.targetSat,
-        isAdmin: isAdminEmail(newUser.email),
-        createdAt: newUser.createdAt
+        id: user.id,
+        name: user.name,
+        email: user.email,
+        provider: user.provider,
+        targetIelts: user.targetIelts || '8.0',
+        targetSat: user.targetSat || '1520',
+        isAdmin: isAdminEmail(user.email),
+        createdAt: user.createdAt
       }
     });
   } catch (err) {
-    console.error('Register error:', err);
-    res.status(500).json({ error: 'Ro‘yxatdan o‘tishda xatolik yuz berdi.' });
+    console.error('Google Auth Error:', err);
+    res.status(500).json({ error: 'Google orqali kirishda xatolik yuz berdi.' });
   }
 });
 
