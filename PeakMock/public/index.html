@@ -241,10 +241,94 @@
     </div>
   </section>
 
-  <!-- ==================== 6. ADMIN STUDIO VIEW ==================== -->
+ <!-- ==================== 6. ADMIN STUDIO VIEW (ONLY rozimatovdoniyor4@gmail.com) ==================== -->
   <section id="adminView" class="container hidden">
+    <div class="card" style="border-left: 4px solid var(--warning);">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <div>
+          <span class="exam-tag" style="background: var(--warning-soft); color: var(--warning);">Bosh Administrator Paneli</span>
+          <h1 style="font-size: 1.5rem; font-weight: 800;">PeakMock AI Test Generator (Gemini 3 Flash)</h1>
+          <p style="color: var(--text-secondary); font-size: 0.92rem;">PDF savollar, Task 1 rasmlari yoki CD audio fayllarni yuklang. Tizim AI yordamida uni avtomatik interaktiv testga aylantiradi.</p>
+        </div>
+      </div>
+    </div>
+
     <div class="card">
-      <h1>Admin Studio</h1>
+      <form id="adminImportForm">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+          <div class="form-group">
+            <label class="form-label">1. Imtihon Turi</label>
+            <select class="select" id="adminExamSelect" required>
+              <option value="IELTS">IELTS</option>
+              <option value="SAT">SAT</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">2. Qaysi Bo‘lim</label>
+            <select class="select" id="adminSectionSelect" required>
+              <option value="Reading">Reading</option>
+              <option value="Listening">Listening</option>
+              <option value="Writing">Writing</option>
+              <option value="Speaking">Speaking</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">3. Qaysi Qism / Part / Module</label>
+            <select class="select" id="adminPartSelect" required>
+              <option value="Passage 1">Passage 1</option>
+              <option value="Passage 2">Passage 2</option>
+              <option value="Passage 3">Passage 3</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">4. Vaqt limiti (daqiqa)</label>
+            <input type="number" class="input" id="adminDurationInput" value="20" min="1" max="180" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Test Sarlavhasi (Ixtiyoriy)</label>
+          <input type="text" class="input" id="adminTitleInput" placeholder="Masalan: Cambridge IELTS Test 1 — Reading Passage 1" />
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label class="form-label">PDF Savollar Fayli (.pdf)</label>
+            <input type="file" class="input" id="adminPdfInput" accept="application/pdf" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Task 1 Rasm / Grafik (.png, .jpg)</label>
+            <input type="file" class="input" id="adminImageInput" accept="image/*" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Listening CD Audio (.mp3, .wav)</label>
+            <input type="file" class="input" id="adminAudioInput" accept="audio/*" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Adminga maxsus izoh / Ko‘rsatma (AI uchun)</label>
+          <textarea class="textarea" id="adminCommentInput" rows="2" placeholder="Masalan: Ushbu grafikdagi ma'lumotlarni chuqur tahlil qiling..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Yoki matnni to‘g‘ridan-to‘g‘ri kiriting</label>
+          <textarea class="textarea" id="adminRawTextInput" rows="3" placeholder="Savollar matnini bu yerga joylashtirishingiz mumkin..."></textarea>
+        </div>
+
+        <div id="adminImportStatus" class="hidden" style="margin-bottom: 14px; padding: 12px; border-radius: 6px; font-weight: 600;"></div>
+
+        <button type="submit" class="btn btn-primary" id="adminImportBtn">
+          AI Assistent orqali Testga Aylantirish va Saqlash
+        </button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 14px;">Bazadagi Barcha Testlar</h3>
       <div id="adminTestsListWrap"></div>
     </div>
   </section>
