@@ -1519,8 +1519,7 @@ function setupAdminDropdowns() {
   syncSections();
 }
 
-document.getElementById('adminImportForm').addEventListener('submit', async (e) => {
-  e.preventDefault();
+document.getElementById('adminImportForm')?.addEventListener('submit', async (e) => {  e.preventDefault();
   const statusBox = document.getElementById('adminImportStatus');
   const btn = document.getElementById('adminImportBtn');
   const fd = new FormData();
