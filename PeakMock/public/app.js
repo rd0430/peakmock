@@ -221,7 +221,7 @@ document.getElementById('authForm').addEventListener('submit', async (e) => {
 });
 
 // Google Client ID ni shu yerga yozing (Google Cloud Console'dan olingan)
-const GOOGLE_CLIENT_ID = 'SIZNING_GOOGLE_CLIENT_ID.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = '827268717463-6v6hc1tmug9ld5jq07auog7m344qva91.apps.googleusercontent.com';
 
 document.getElementById('googleSsoBtn').addEventListener('click', () => {
   if (!window.google) {
