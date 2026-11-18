@@ -144,12 +144,19 @@ function enterExamMode() {
   if (!document.getElementById('examFullscreenStyle')) {
     const st = document.createElement('style');
     st.id = 'examFullscreenStyle';
-    st.textContent = `
+   st.textContent = `
       body { padding-top: 0 !important; margin-top: 0 !important; }
       .timer-banner { margin-top: 0 !important; margin-bottom: 10px !important; }
-      .split-exam-grid { height: calc(100vh - 78px) !important; min-height: 500px; }
-      .passage-box, .questions-box { height: 100% !important; max-height: none !important; overflow-y: auto !important; }
-      .bluebook-shell { height: calc(100vh - 20px) !important; }
+      @media (min-width: 901px) {
+        .split-exam-grid { height: calc(100vh - 78px) !important; min-height: 500px; }
+        .passage-box, .questions-box { height: 100% !important; max-height: none !important; overflow-y: auto !important; }
+        .bluebook-shell { height: calc(100vh - 20px) !important; }
+      }
+      @media (max-width: 900px) {
+        .split-exam-grid { height: auto !important; }
+        .passage-box { max-height: 45vh !important; overflow-y: auto !important; }
+        .questions-box { max-height: none !important; }
+      }
     `;
     document.head.appendChild(st);
   }
